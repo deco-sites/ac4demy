@@ -1,4 +1,4 @@
-# Storefront — deco.cx template 
+# Storefront — deco.cx template build
 
 Welcome to your [deco.cx](https://deco.cx) site!
 
