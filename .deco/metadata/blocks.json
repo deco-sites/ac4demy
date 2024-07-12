@@ -218,5 +218,11 @@
   "/.deco/blocks/Ac4demy.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/pages-Home%2520Joao-821179.json": {
+    "name": "Home Joao",
+    "path": "/joao",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
