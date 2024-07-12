@@ -14,6 +14,18 @@
         {}
       ],
       "title": "Todo mundo está de olho"
+    },
+    {
+      "__resolveType": "site/sections/Platforms/PlatformCarousel.tsx",
+      "cards": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "title": "Conteúdo para aprender as melhores plataformas"
     }
   ],
   "seo": {

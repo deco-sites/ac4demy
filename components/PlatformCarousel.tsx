@@ -1,24 +1,24 @@
-import Slider from "../components/ui/Slider.tsx";
+import Slider from "./ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
-import type { Course } from "../sections/CourseContent/CourseSpot.tsx";
-import CourseSpot from "../sections/CourseContent/CourseSpot.tsx";
+import type { Platform } from "../sections/Platforms/PlatformsItem.tsx";
+import PlatformsItem from "../sections/Platforms/PlatformsItem.tsx";
 import Icon from "site/components/ui/Icon.tsx";
 
 export interface Props {
     title?: string;
-    cards?: Course[];
+    cards?: Platform[];
 } 
 
-function CarouselSpot({ title, cards = [] }: Props) {
+function PlatformCarousel({ title, cards = [] }: Props) {
   const id = useId();
 
   return (
     <div id={id} class='relative p-10 overflow-hidden'>
       <h2 class="text-xl font-semibold opacity-60 text-white border-b pb-3 w-full mb-6 border-opacity-10 border-white">{title}</h2>
-      <Slider class="carousel carousel-center w-screen gap-6 text-secondary-content text-sm/4">
+      <Slider class="carousel carousel-center w-screen gap-6 text-secondary-content text-sm/4 ">
         {cards.map((card, index) => (
           <Slider.Item index={index} class="carousel-item">
-            <CourseSpot course={card} />
+            <PlatformsItem platform={card} />
           </Slider.Item>
         ))}
       </Slider>
@@ -42,4 +42,4 @@ function CarouselSpot({ title, cards = [] }: Props) {
   );
 }
 
-export default CarouselSpot;
+export default PlatformCarousel;
