@@ -4,7 +4,7 @@
   "buttonStyle": {
     "--border-btn": "1px",
     "--rounded-btn": "0.2rem",
-    "--btn-focus-scale": 0.95,
+    "--btn-focus-scale": "0.9",
     "--animation-btn": "0.25s"
   },
   "otherStyles": {
@@ -17,6 +17,14 @@
   "mode": "dark",
   "mainColors": {
     "base-100": "#1e1e1e",
-    "primary": "##02CAF6#02CAF6"
+    "primary": "#02CAF6",
+    "tertiary": "#E61755",
+    "secondary": "#01D859"
+  },
+  "complementaryColors": {
+    "base-content": "#ffffff",
+    "primary-content": "#01D859",
+    "secondary-content": "#AB89F9",
+    "tertiary-content": "#E61755"
   }
 }
