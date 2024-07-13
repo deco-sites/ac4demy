@@ -17,7 +17,7 @@ function CarouselSpot({ title, subtitle, cards = [] }: Props) {
   return (
     <div
       id={id}
-      class="relative p-12 rounded-2xl mx-10 my-8 overflow-hidden bg-[#02F67C14]"
+      class="relative p-12 rounded-2xl mx-10 my-8 overflow-hidden max-w-[1240px] 2xl:mx-auto bg-[#02F67C14]"
     >
       <div class="flex w-full mb-6">
         <div class="flex flex-col flex-1 mb-6">
@@ -54,7 +54,7 @@ function CarouselSpot({ title, subtitle, cards = [] }: Props) {
         </div>
       </div>
       <div class="w-full flex flex-col items-center gap-6 md:flex-row justify-between">
-        {cards.map((card, index) => <CourseSpot course={card} />)}
+        {cards.map((card) => <CourseSpot course={card} />)}
       </div>
     </div>
   );
