@@ -1,0 +1,42 @@
+{
+  "__resolveType": "site/sections/Header/HeaderLateral.tsx",
+  "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8d292d41-74b0-4319-ac83-6b57a772ad97",
+  "menu": [
+    {
+      "links": [
+        {
+          "icon": "HomeIco",
+          "label": "Página Inicial",
+          "href": "/home-pandeiro"
+        },
+        {
+          "icon": "bookIco",
+          "label": "Cursos",
+          "href": "/cursos"
+        },
+        {
+          "icon": "chartIco",
+          "label": "Estatísticas",
+          "href": "/estatísticas"
+        }
+      ],
+      "title": "Menu"
+    },
+    {
+      "links": [
+        {
+          "icon": "configIco",
+          "label": "Configurações",
+          "href": "/configuracoes"
+        }
+      ],
+      "title": "Minha conta"
+    }
+  ],
+  "inviteFriend": {
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/ecc1c371-228e-4a23-b162-e69f58be07f2",
+    "text": "Convide um amigo",
+    "labelCta": "Link de convite",
+    "hrefCta": "/"
+  }
+}

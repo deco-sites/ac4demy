@@ -224,5 +224,13 @@
     "path": "/joao",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/HeaderLateral%20-%20Geral.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Header/HeaderLateral.tsx"
+  },
+  "/.deco/blocks/v1%20Home.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/ContainerContent.tsx"
   }
 }

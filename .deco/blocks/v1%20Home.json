@@ -1,0 +1,55 @@
+{
+  "__resolveType": "site/sections/ContainerContent.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/CourseContent/CarouselSpot.tsx",
+        "title": "Todo mundo está de olho",
+        "cards": [
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Platforms/PlatformCarousel.tsx",
+        "title": "Conteúdo para aprender as melhores plataformas",
+        "cards": [
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/6ffdb8bb-b5d9-470a-93e4-04db69c9648f",
+            "url": "/",
+            "title": "Deco"
+          },
+          {
+            "url": "/",
+            "title": "shopify",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/eb189838-e112-4d0e-80c1-4b9008dbf955"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/99f4acd4-122f-4b3b-a925-af5b5c9ccecd"
+          },
+          {}
+        ]
+      }
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/CourseContent/DecoSection.tsx",
+        "title": {
+          "text": "Se torne um mestre em ",
+          "textHighlight": "deco.cx"
+        },
+        "subtitle": "Aqui você encontra tudo que precisa para dominar a maior plataforma headless",
+        "cards": [
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  ]
+}
