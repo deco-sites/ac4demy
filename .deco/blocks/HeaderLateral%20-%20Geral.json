@@ -7,7 +7,7 @@
         {
           "icon": "HomeIco",
           "label": "Página Inicial",
-          "href": "/home-pandeiro"
+          "href": "/"
         },
         {
           "icon": "bookIco",

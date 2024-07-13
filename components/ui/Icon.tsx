@@ -21,6 +21,8 @@ export type AvailableIcons =
   | "HomeIco"
   | "chartIco"
   | "configIco"
+  | "bell"
+  | "user"
   | "bookIco"
   | "sack_dollar";
 

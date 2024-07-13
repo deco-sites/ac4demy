@@ -14,7 +14,7 @@ export interface Course {
   date?: string;
   duration?: string;
   price?: string;
-  difficulty?: string;
+  difficulty?: "Iniciante" | "Intermediário" | "Avançado";
   /** @format color */
   priceBackgroundColor?: string;
 }

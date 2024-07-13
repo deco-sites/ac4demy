@@ -33,8 +33,15 @@
 }
 
 .scrollbar-header::-webkit-scrollbar-thumb {
-  background-color: #18cbf6;   
+  background-color: #ffffff24;   
   border-radius: 20px;
+}
+.bg-menu{
+  background-color: #FFFFFF0A;
+}
+
+.bg-card{
+  background-color: #FFFFFF14;
 }
 
 @keyframes progress-frame {

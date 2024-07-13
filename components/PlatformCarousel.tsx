@@ -34,7 +34,7 @@ function PlatformCarousel({ title, cards = [] }: Props) {
 
       <Slider.NextButton
         class="no-animation absolute right-2 top-1/2 btn btn-circle btn-outline disabled:invisible"
-        disabled={cards.length < 2}
+        disabled={cards.length < 6}
       >
         <Icon id="chevron-right" />
       </Slider.NextButton>
