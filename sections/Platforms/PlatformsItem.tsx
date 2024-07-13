@@ -6,7 +6,7 @@ export interface Platform {
   url?: string;
   title?: string;
   image?: ImageWidget;
-  }
+}
 
 export interface Props {
   platform?: Platform;
@@ -22,19 +22,21 @@ export default function PlatformsItem({ platform }: Props) {
     image = DEFAULT_IMAGE,
   } = platform || {};
 
-
   return (
-      <a href={`${url}`} class="border-0 overflow-hidden rounded-2xl flex-shrink-0 w-full" >
-        <Image
-          width={300}
-          height={182}
-          class="w-fill h-44 object-cover rounded-2xl"
-          sizes="(max-width: 300px) 100vw, 30vw"
-          src={image}
-          alt={title}
-          decoding="async"
-          loading="lazy"
-        />
-      </a>
+    <a
+      href={`${url}`}
+      class="border-0 overflow-hidden rounded-2xl flex-shrink-0 w-full"
+    >
+      <Image
+        width={300}
+        height={182}
+        class="w-fill h-44 object-cover rounded-2xl"
+        sizes="(max-width: 300px) 100vw, 30vw"
+        src={image}
+        alt={title}
+        decoding="async"
+        loading="lazy"
+      />
+    </a>
   );
 }

@@ -103,7 +103,7 @@ function BannerItem(
       name: "Instructor",
       image: "",
       alt: "Instructor",
-    }
+    },
   };
 
   return (
@@ -123,9 +123,7 @@ function BannerItem(
         >
           <div>
             {action.labels.highlight && (
-              <span
-                class="flex flex-row items-center text-sm text-primary font-semibold bg-black px-4 py-1.5 rounded-xl"
-              >
+              <span class="flex flex-row items-center text-sm text-primary font-semibold bg-black px-4 py-1.5 rounded-xl">
                 {action.labels.highlight}
               </span>
             )}
@@ -133,12 +131,10 @@ function BannerItem(
           <div class="flex flex-col items-start gap-2">
             <div class="flex flex-row justify-center gap-3">
               <span class="flex flex-row justify-center items-center gap-x-2.5 text-sm text-black font-semibold px-4 py-1.5 bg-primary rounded-xl">
-                <Icon id="sack_dollar" width={18} height={18}/>
+                <Icon id="sack_dollar" width={18} height={18} />
                 {action.labels.price}
               </span>
-              <span
-                class="flex flex-row items-center text-sm text-black font-semibold bg-white px-4 py-1.5 rounded-xl"
-              >
+              <span class="flex flex-row items-center text-sm text-black font-semibold bg-white px-4 py-1.5 rounded-xl">
                 {action.labels.classification}
               </span>
             </div>
@@ -165,7 +161,7 @@ function BannerItem(
             sizes="(max-width: 640px) 100vw, 30vw"
             src={instructor.image}
             alt={instructor.alt}
-            />
+          />
           <span class="text-gray-300 font-semibold text-sm">
             {instructor.name}
           </span>
@@ -198,7 +194,9 @@ function BannerItem(
   );
 }
 
-function CarrouselMainBanners({ images = [], preload, interval, dots, arrows }: Props) {
+function CarrouselMainBanners(
+  { images = [], preload, interval, dots, arrows }: Props,
+) {
   const id = useId();
 
   return (
@@ -221,39 +219,34 @@ function CarrouselMainBanners({ images = [], preload, interval, dots, arrows }: 
         </Slider>
       </div>
 
-      {
-        arrows && (
-          <div class="hidden sm:flex items-center justify-center z-10 col-start-1 row-start-2">
-            <Slider.PrevButton
-              class="btn btn-neutral btn-outline btn-circle no-animation btn-sm bg-base-200"
-              disabled={false}
-            >
-              <Icon id="chevron-right" class="rotate-180" />
-            </Slider.PrevButton>
-          </div>
-        )
-      }
-      {
-        arrows && (
-          <div class="hidden sm:flex items-center justify-center z-10 col-start-3 row-start-2">
-            <Slider.NextButton
+      {arrows && (
+        <div class="hidden sm:flex items-center justify-center z-10 col-start-1 row-start-2">
+          <Slider.PrevButton
             class="btn btn-neutral btn-outline btn-circle no-animation btn-sm bg-base-200"
             disabled={false}
           >
-              <Icon id="chevron-right" />
-            </Slider.NextButton>
-          </div>
-        )
-      }
+            <Icon id="chevron-right" class="rotate-180" />
+          </Slider.PrevButton>
+        </div>
+      )}
+      {arrows && (
+        <div class="hidden sm:flex items-center justify-center z-10 col-start-3 row-start-2">
+          <Slider.NextButton
+            class="btn btn-neutral btn-outline btn-circle no-animation btn-sm bg-base-200"
+            disabled={false}
+          >
+            <Icon id="chevron-right" />
+          </Slider.NextButton>
+        </div>
+      )}
 
-      {
-        dots && (
-          <ul
+      {dots && (
+        <ul
           class={clx(
             "col-span-full row-start-4 z-10",
             "carousel justify-center gap-3",
           )}
-          >
+        >
           {images.map((_, index) => (
             <li class="carousel-item">
               <Slider.Dot
@@ -267,8 +260,7 @@ function CarrouselMainBanners({ images = [], preload, interval, dots, arrows }: 
             </li>
           ))}
         </ul>
-        )
-      }
+      )}
 
       <Slider.JS rootId={id} interval={interval && interval * 1e3} infinite />
     </div>

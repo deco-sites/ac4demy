@@ -16,7 +16,7 @@ export interface Course {
   price?: string;
   difficulty?: string;
   /** @format color */
-  priceBackgroundColor?: string; 
+  priceBackgroundColor?: string;
 }
 
 export interface Props {
@@ -48,7 +48,7 @@ export default function CourseSpot({ course }: Props) {
     duration = "2 hours",
     price = "R$49,90",
     difficulty = "Iniciante",
-    priceBackgroundColor = "#02CAF6", 
+    priceBackgroundColor = "#02CAF6",
   } = course || {};
 
   const getDifficultyColor = (difficulty: string) => {
