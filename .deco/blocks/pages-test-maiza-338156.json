@@ -1,0 +1,52 @@
+{
+  "name": "test-maiza",
+  "path": "/test-maiza",
+  "sections": [
+    {
+      "__resolveType": "site/sections/hackathon/CarrouselMainBanners.tsx",
+      "images": [
+        {
+          "action": {
+            "labels": {
+              "price": "59,00",
+              "classification": "Iniciante"
+            },
+            "href": "/",
+            "title": "title",
+            "subTitle": "subtitle"
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5e1a47c3-2d9e-416b-a53a-2f876b7b2fc3",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/499d3e39-dd25-42b8-91c2-d3cfc158e797",
+          "alt": "image alt",
+          "instructor": {
+            "name": "Name instructor",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/f70c020b-2f26-4023-a92c-991fb7b3c0c8"
+          }
+        },
+        {
+          "action": {
+            "labels": {
+              "price": "59,00",
+              "classification": "Iniciante"
+            },
+            "href": "/",
+            "title": "title",
+            "subTitle": "subtitle"
+          },
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5e1a47c3-2d9e-416b-a53a-2f876b7b2fc3",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/499d3e39-dd25-42b8-91c2-d3cfc158e797",
+          "alt": "image alt",
+          "instructor": {
+            "name": "Name instructor",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/f70c020b-2f26-4023-a92c-991fb7b3c0c8"
+          }
+        }
+      ],
+      "interval": 2
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

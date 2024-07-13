@@ -22,6 +22,7 @@ import * as $$$$$$5 from "./sections/Content/Hero.tsx";
 import * as $$$$$$6 from "./sections/Content/Intro.tsx";
 import * as $$$$$$7 from "./sections/Content/Logos.tsx";
 import * as $$$$$$8 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$28 from "./sections/hackathon/CarrouselMainBanners.tsx";
 import * as $$$$$$9 from "./sections/Header/Header.tsx";
 import * as $$$$$$10 from "./sections/Images/Banner.tsx";
 import * as $$$$$$11 from "./sections/Images/Carousel.tsx";
@@ -60,6 +61,7 @@ const manifest = {
     "site/sections/Content/Intro.tsx": $$$$$$6,
     "site/sections/Content/Logos.tsx": $$$$$$7,
     "site/sections/Footer/Footer.tsx": $$$$$$8,
+    "site/sections/hackathon/CarrouselMainBanners.tsx": $$$$$$28,
     "site/sections/Header/Header.tsx": $$$$$$9,
     "site/sections/Images/Banner.tsx": $$$$$$10,
     "site/sections/Images/Carousel.tsx": $$$$$$11,

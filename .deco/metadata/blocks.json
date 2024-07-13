@@ -218,5 +218,11 @@
   "/.deco/blocks/Ac4demy.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/pages-test-maiza-338156.json": {
+    "name": "test-maiza",
+    "path": "/test-maiza",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
