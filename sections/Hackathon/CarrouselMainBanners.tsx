@@ -11,7 +11,7 @@ import { useId } from "../../sdk/useId.ts";
  */
 export interface Banner {
   /** @description desktop otimized image */
-  ddesktop: ImageWidget;
+  desktop: ImageWidget;
 
   /** @description mobile otimized image */
   mobile: ImageWidget;
@@ -73,13 +73,6 @@ export interface Props {
 function BannerItem(
   { image, lcp }: { image: Banner; lcp?: boolean },
 ) {
-  const {
-    alt,
-    mobile,
-    desktop,
-    action,
-    instructor,
-  } = image ?? DEFAULT_PROPS;
 
   const DEFAULT_PROPS = {
     desktop: {
@@ -105,6 +98,14 @@ function BannerItem(
       alt: "Instructor",
     },
   };
+
+  const {
+    alt,
+    mobile,
+    desktop,
+    action,
+    instructor,
+  } = image ?? DEFAULT_PROPS;
 
   return (
     <a
@@ -160,7 +161,7 @@ function BannerItem(
             class="w-fill object-cover rounded-2xl mr-2"
             sizes="(max-width: 640px) 100vw, 30vw"
             src={instructor.image}
-            alt={instructor.alt}
+            alt={instructor.alt || ""}
           />
           <span class="text-gray-300 font-semibold text-sm">
             {instructor.name}
@@ -180,11 +181,11 @@ function BannerItem(
           media="(min-width: 768px)"
           fetchPriority={lcp ? "high" : "auto"}
           src={desktop}
-          width={1172}
+          width={1169}
           height={418}
         />
         <img
-          class="object-cover w-full h-full brightness-50"
+          class="object-cover w-full brightness-50 h-[calc((80vw-280px)*(418/1169))] min-h-[300px]"
           loading={lcp ? "eager" : "lazy"}
           src={desktop}
           alt={alt}

@@ -3,13 +3,86 @@
   "sections": [
     {
       "section": {
+        "__resolveType": "site/sections/Header/HeaderTop.tsx",
+        "placeholderBusca": "Encontre seu curso"
+      }
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Hackathon/CarrouselMainBanners.tsx",
+        "images": [
+          {
+            "action": {
+              "labels": {
+                "classification": "Iniciante",
+                "price": "R$49,90",
+                "highlight": "Destaque da semana "
+              },
+              "href": "/",
+              "title": "deco.cx"
+            },
+            "ddesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1ea1f6f7-895f-4291-9e1b-fba217eeaebe",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/67e406db-647d-4cae-8dc6-a814340027e7",
+            "alt": "image alt",
+            "instructor": {
+              "name": "Por: Rafael Oliveira",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/eec0e6ca-f40b-4ec4-b3ef-7f06e43525f9",
+              "alt": "instrutuor"
+            },
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/4683d9cb-cde1-4d1e-b3bd-246e53c16e3b"
+          }
+        ],
+        "preload": false,
+        "dots": false,
+        "arrows": false,
+        "interval": 3
+      }
+    },
+    {
+      "section": {
         "__resolveType": "site/sections/CourseContent/CarouselSpot.tsx",
         "title": "Todo mundo está de olho",
         "cards": [
-          {},
-          {},
-          {},
-          {}
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/912ec02a-62d1-4bbf-94ed-d06ae929cd13",
+            "difficulty": "Iniciante"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0676008e-e61d-4032-a890-00c2c3d243eb",
+            "difficulty": "Intermediário"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/dabd6cf8-9273-4f67-8721-76ca0b634ea0",
+            "difficulty": "Avançado"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/7f8f01c7-9a8c-4e9d-879d-02ce8d1c60b7",
+            "difficulty": "Intermediário"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/912ec02a-62d1-4bbf-94ed-d06ae929cd13",
+            "difficulty": "Iniciante"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0676008e-e61d-4032-a890-00c2c3d243eb",
+            "difficulty": "Intermediário"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/7f8f01c7-9a8c-4e9d-879d-02ce8d1c60b7",
+            "difficulty": "Intermediário"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/912ec02a-62d1-4bbf-94ed-d06ae929cd13",
+            "difficulty": "Iniciante"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0676008e-e61d-4032-a890-00c2c3d243eb",
+            "difficulty": "Intermediário"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/dabd6cf8-9273-4f67-8721-76ca0b634ea0",
+            "difficulty": "Avançado"
+          }
         ]
       }
     },
@@ -31,7 +104,15 @@
           {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/99f4acd4-122f-4b3b-a925-af5b5c9ccecd"
           },
-          {}
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0bb6ca42-c0ee-4718-a1d4-6d7450107080"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/fd8ab5cd-00ac-4203-b5cb-449be90eb6ec"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/95d714b5-ce6a-46b2-beb9-4bf4f2925dfd"
+          }
         ]
       }
     },

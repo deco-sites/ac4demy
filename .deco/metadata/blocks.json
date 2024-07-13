@@ -105,12 +105,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-home-c4bcbfb771e9.json": {
-    "name": "Home",
-    "path": "/",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-offline-b9c52de8c7b3.json": {
     "name": "Offline",
     "path": "/offline",
@@ -233,9 +227,9 @@
     "blockType": "sections",
     "__resolveType": "site/sections/ContainerContent.tsx"
   },
-  "/.deco/blocks/pages-test-maiza-2-147744.json": {
-    "name": "test-maiza-2",
-    "path": "/test-maiza-2",
+  "/.deco/blocks/pages-Home%2520New-664811.json": {
+    "name": "Home New",
+    "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
