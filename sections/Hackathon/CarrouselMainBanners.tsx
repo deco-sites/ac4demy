@@ -73,7 +73,6 @@ export interface Props {
 function BannerItem(
   { image, lcp }: { image: Banner; lcp?: boolean },
 ) {
-
   const DEFAULT_PROPS = {
     desktop: {
       src: "",

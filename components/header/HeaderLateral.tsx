@@ -30,7 +30,9 @@ export default function HeaderLateral(
   { logo, menu, inviteFriend, url }: SectionProps<typeof loader>,
 ) {
   return (
-    <div class={`scrollbar-header fixed w-[272px] overflow-y-scroll z-50 flex flex-col h-screen ml-0 p-8 pt-10 bg-menu border-r border-white border-opacity-10`}>
+    <div
+      class={`scrollbar-header fixed w-[272px] overflow-y-scroll z-50 flex flex-col h-screen ml-0 p-8 pt-10 bg-menu border-r border-white border-opacity-10`}
+    >
       <a href="/">
         <Image
           className="object-cover pb-10 w-[130px]"

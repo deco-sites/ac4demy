@@ -1,2 +1,1 @@
-export { default,  loader } from "../components/course/CoursePageSlug.tsx"; 
-
+export { default, loader } from "../components/course/CoursePageSlug.tsx";

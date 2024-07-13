@@ -38,7 +38,10 @@ function InstagramPosts({
   const id = useId();
 
   return (
-    <div id={id} class="relative p-6 rounded-2xl mx-10 my-8 overflow-hidden bg-[#FFFFFF14]">
+    <div
+      id={id}
+      class="relative p-6 rounded-2xl mx-10 my-8 overflow-hidden bg-[#FFFFFF14]"
+    >
       <h2 class="text-3xl font-semibold opacity-90 pb-3 w-full">
         {title}
       </h2>

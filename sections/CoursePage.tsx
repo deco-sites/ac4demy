@@ -1,1 +1,1 @@
-export { default } from "../components/course/CoursePage.tsx"; 
+export { default } from "../components/course/CoursePage.tsx";

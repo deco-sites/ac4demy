@@ -1,1 +1,1 @@
-export { default } from "../components/Posts.tsx"; 
+export { default } from "../components/Posts.tsx";
