@@ -2638,6 +2638,7 @@
       }
     },
     {
+
       "id": "/.deco/blocks/pages-Home%2520Joao-821179.json",
       "name": "Home Joao",
       "pinned": false,
@@ -2688,6 +2689,7 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
+
                     "id": "%2F.deco%2Fblocks%2Fpages-Home%252520Joao-821179.json::Properties::list::Properties::%7B%7D",
                     "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Home%252520Joao-821179.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
@@ -2710,6 +2712,7 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
+
                     "id": "%2F.deco%2Fblocks%2Fpages-Home%252520Joao-821179.json::Preview::visibility::Preview::%7B%7D",
                     "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Home%252520Joao-821179.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
@@ -2733,6 +2736,7 @@
         "maximisedItemId": null
       },
       "tabs": {
+
         "%2F.deco%2Fblocks%2Fpages-Home%252520Joao-821179.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
@@ -2740,6 +2744,7 @@
           "render": "function",
           "viewId": "Properties",
           "width": 30,
+
           "id": "%2F.deco%2Fblocks%2Fpages-Home%252520Joao-821179.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
@@ -2752,6 +2757,7 @@
           "render": "function",
           "viewId": "Preview",
           "width": 70,
+
           "id": "%2F.deco%2Fblocks%2Fpages-Home%252520Joao-821179.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null

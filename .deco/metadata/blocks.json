@@ -227,6 +227,7 @@
     "blockType": "sections",
     "__resolveType": "site/sections/ContainerContent.tsx"
   },
+
   "/.deco/blocks/pages-Home%2520New-664811.json": {
     "name": "Home New",
     "path": "/",

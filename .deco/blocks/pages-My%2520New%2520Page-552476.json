@@ -1,0 +1,44 @@
+{
+  "name": "Curso",
+  "path": "/pagina-curso-1",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/CoursePage.tsx",
+            "course": {
+              "sections": [
+                {
+                  "title": "Introdução",
+                  "duration": "5:46"
+                },
+                {
+                  "title": "Primeiros passos",
+                  "duration": "10:12"
+                },
+                {
+                  "title": "Introdução",
+                  "duration": "5:46"
+                },
+                {
+                  "title": "Introdução",
+                  "duration": "5:46"
+                }
+              ],
+              "description": "<h2>O que você aprenderá:</h2><p><br data-mce-bogus=\"1\"></p><p>Configurar o seu primeiro setup em deco.cx</p><p><br data-mce-bogus=\"1\"></p><p>Desenvolver raciocínio lógico de setup</p><p><br data-mce-bogus=\"1\"></p><p>Aprender o básico da plataforma da deco.cx</p>"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
