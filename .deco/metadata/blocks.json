@@ -105,12 +105,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-home-c4bcbfb771e9.json": {
-    "name": "Home",
-    "path": "/",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-offline-b9c52de8c7b3.json": {
     "name": "Offline",
     "path": "/offline",
@@ -233,9 +227,10 @@
     "blockType": "sections",
     "__resolveType": "site/sections/ContainerContent.tsx"
   },
-  "/.deco/blocks/pages-My%2520New%2520Page-552476.json": {
-    "name": "Curso",
-    "path": "/pagina-curso-1",
+
+  "/.deco/blocks/pages-Home%2520New-664811.json": {
+    "name": "Home New",
+    "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }

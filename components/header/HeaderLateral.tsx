@@ -26,9 +26,11 @@ export interface Props {
   };
 }
 
-export default function HeaderLateral({ logo, menu, inviteFriend, url }: SectionProps<typeof loader>) {
+export default function HeaderLateral(
+  { logo, menu, inviteFriend, url }: SectionProps<typeof loader>,
+) {
   return (
-    <div class={`scrollbar-header fixed w-[272px] overflow-y-scroll z-50 bg-base-200 flex flex-col h-screen ml-0 p-8`}>
+    <div class={`scrollbar-header fixed w-[272px] overflow-y-scroll z-50 flex flex-col h-screen ml-0 p-8 pt-10 bg-menu border-r border-white border-opacity-10`}>
       <a href="/">
         <Image
           className="object-cover pb-10 w-[130px]"
@@ -37,7 +39,7 @@ export default function HeaderLateral({ logo, menu, inviteFriend, url }: Section
           width={130}
           height={19}
           loading={"eager"}
-          />
+        />
       </a>
       <div class={`flex flex-col flex-1`}>
         {menu?.map(({ title, links }) => {
@@ -46,7 +48,12 @@ export default function HeaderLateral({ logo, menu, inviteFriend, url }: Section
               <h2 class={`text-sm font-semibold text-opacity-60`}>{title}</h2>
               {links?.map(({ label, href, icon }) => {
                 return (
-                  <div class={`flex items-center gap-2.5 w-full p-4 ${url.includes(href) && "bg-primary rounded-lg text-base-200"}`}>
+                  <div
+                    class={`flex items-center gap-2.5 w-full p-4 ${
+                      url.includes(href) &&
+                      "bg-primary rounded-lg text-base-200"
+                    }`}
+                  >
                     <Icon id={icon} size={18} stroke-width={1} />
                     <a
                       href={href}
@@ -63,7 +70,9 @@ export default function HeaderLateral({ logo, menu, inviteFriend, url }: Section
       </div>
       {inviteFriend &&
         (
-          <div class={`relative gap-2 min-h-[142px] mt-[70px] w-full flex flex-col rounded-xl bg-white bg-opacity-5 items-center justify-center h-[142px]`}>
+          <div
+            class={`relative gap-2 min-h-[142px] mt-[70px] w-full flex flex-col rounded-xl bg-white bg-opacity-5 items-center justify-center h-[142px]`}
+          >
             <Image
               className="absolute -top-[30px] object-cover overflow-visible w-[130px] h-[19px]"
               alt={"Pilha de cadernos empilhados"}

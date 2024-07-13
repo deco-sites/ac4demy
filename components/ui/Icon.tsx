@@ -21,7 +21,10 @@ export type AvailableIcons =
   | "HomeIco"
   | "chartIco"
   | "configIco"
-  | "bookIco";
+  | "bell"
+  | "user"
+  | "bookIco"
+  | "sack_dollar";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**
