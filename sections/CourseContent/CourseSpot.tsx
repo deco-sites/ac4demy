@@ -15,6 +15,8 @@ export interface Course {
   duration?: string;
   price?: string;
   difficulty?: string;
+  /** @format color */
+  priceBackgroundColor?: string; 
 }
 
 export interface Props {
@@ -46,6 +48,7 @@ export default function CourseSpot({ course }: Props) {
     duration = "2 hours",
     price = "R$49,90",
     difficulty = "Iniciante",
+    priceBackgroundColor = "#02CAF6", 
   } = course || {};
 
   const getDifficultyColor = (difficulty: string) => {
@@ -66,10 +69,10 @@ export default function CourseSpot({ course }: Props) {
   const ContainerComponent = course ? Container : Fragment;
 
   return (
-    <div class="gap-8 grid grid-cols-[repeat(auto-fill,_minmax(200px,_260px))]">
+    <div class="gap-8 grid grid-cols-[repeat(auto-fill,_minmax(200px,_260px))] ">
       <a
         href={`${url}`}
-        class="border-0 overflow-hidden rounded-2xl p-4 flex-shrink-0 w-full bg-[#303030]"
+        class="border-0 overflow-hidden rounded-2xl p-2 flex-shrink-0 w-full bg-[#FFFFFF14] min-h-[340px] "
       >
         <Image
           width={380}
@@ -85,7 +88,7 @@ export default function CourseSpot({ course }: Props) {
           <div class={`font-bold mt-3 text-sm ${difficultyColor}`}>
             {difficulty}
           </div>
-          <h3 class="text-lg font-bold text-white">{title}</h3>
+          <h3 class="text-lg font-bold text-white min-h-[60px]">{title}</h3>
           <div class="flex items-center">
             <Image
               width={32}
@@ -100,7 +103,10 @@ export default function CourseSpot({ course }: Props) {
             <p class="text-sm text-[#A4A4A4]">{instructor}</p>
           </div>
           <div class="flex items-center justify-between mt-4">
-            <div class="bg-[#02CAF6] text-black font-bold py-2 px-4 rounded-full text-sm flex items-center gap-2 lg:hover:bg-blue-600">
+            <div
+              class="text-black font-bold py-2 px-4 rounded-full text-sm flex items-center gap-2 lg:hover:bg-blue-600"
+              style={{ backgroundColor: priceBackgroundColor }}
+            >
               <svg
                 class="w-4 h-4 "
                 fill="none"
