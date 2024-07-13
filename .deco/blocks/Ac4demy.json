@@ -25,6 +25,7 @@
     "base-content": "#ffffff",
     "primary-content": "#01D859",
     "secondary-content": "#AB89F9",
-    "tertiary-content": "#E61755"
+    "tertiary-content": "#E61755",
+    "base-200": "#1e1e1e"
   }
 }
