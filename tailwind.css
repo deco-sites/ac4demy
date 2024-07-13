@@ -28,6 +28,15 @@
   animation: progress-frame ease normal
 }
 
+.scrollbar-header::-webkit-scrollbar {
+  width: 4px;               /* width of the entire scrollbar */
+}
+
+.scrollbar-header::-webkit-scrollbar-thumb {
+  background-color: #18cbf6;   
+  border-radius: 20px;
+}
+
 @keyframes progress-frame {
   0% {
     --dot-progress: 0%
