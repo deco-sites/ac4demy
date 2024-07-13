@@ -20,7 +20,7 @@ export interface Course {
 }
 
 export interface Props {
-  course?: Course;
+  course?: Course ;
 }
 
 const DEFAULT_IMAGE =
