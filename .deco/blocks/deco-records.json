@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/apps/deco/records.ts",
+  "url": "libsql://ac4demy-decocx.turso.io",
+  "authToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "name": "DATABASE_AUTH_TOKEN",
+    "encrypted": "11193701c15ae2b1c55d1659eaa69ee3ecced681c13d8c220c377ea7ea86d4da8e718822067fd5a3ea265d7cdeded33067a3751b281ec9361043acc2c27a210887bf08cce485dcd6713c2ad457374b7b81e243af370f5da5650413f1f75eede78a50e91de6ba73205e4d50229a296bdfbef067fd41baed2d9e94c922808fc171a1e0d80a0d674b56db15c689f87bf7e9b5cc79eb5443cfdb78687a1fd832277fdb1ef86946a914c47cdd708dbc6a5ef4cd4b4d7d254d80defa406663ff3e5db84e1391645fd5e1394b77feb01cbd22831e56d84fd7a5857e4d9ced710ba05171"
+  }
+}
