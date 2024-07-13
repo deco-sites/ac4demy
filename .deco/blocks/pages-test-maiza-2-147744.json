@@ -1,0 +1,119 @@
+{
+  "name": "test-maiza-2",
+  "path": "/test-maiza-2",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Hackathon/CarrouselMainBanners.tsx",
+            "images": [
+              {
+                "action": {
+                  "labels": {
+                    "price": "59,00",
+                    "classification": "Iniciante",
+                    "highlight": "Destaque da semana"
+                  },
+                  "href": "/",
+                  "title": "Aprendendo a configurar o setup com deco.cx",
+                  "subTitle": "subtitle"
+                },
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/ceec4dec-cd9d-4e98-a942-8bcdcbc414db",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/cdb615c8-5bac-4963-8da1-b91c8c2c3335",
+                "alt": "Aprendendo a configurar o setup com deco.cx",
+                "instructor": {
+                  "name": "Por: Rafael Oliveira",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c976c9c1-4df4-4048-bd48-14ea11272c37"
+                },
+                "ddesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1b846885-d926-4a43-b808-aa1930a0459d"
+              },
+              {
+                "action": {
+                  "labels": {
+                    "price": "39,00",
+                    "classification": "Intermediário",
+                    "highlight": "Oferta da semana"
+                  },
+                  "href": "/",
+                  "title": "Montando um blog CMS completo em Webflow",
+                  "subTitle": "subtitle"
+                },
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/ceec4dec-cd9d-4e98-a942-8bcdcbc414db",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/aaa644b2-169a-4f5f-92f2-d65f26f149ab",
+                "alt": "Montando um blog CMS completo em Webflow",
+                "instructor": {
+                  "name": "Por: João Rocha",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/a26893c0-a17b-482d-a495-d31bb292468f",
+                  "alt": "Foto de João Rocha"
+                },
+                "ddesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/bd13086a-13d6-4dd6-adeb-a3af8e749620"
+              }
+            ],
+            "interval": 10,
+            "dots": false,
+            "arrows": true
+          }
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/CourseContent/CarouselSpot.tsx",
+            "title": "Todo mundo está de olho",
+            "cards": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Platforms/PlatformCarousel.tsx",
+            "title": "Conteúdo para aprender as melhores plataformas",
+            "cards": [
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/6ffdb8bb-b5d9-470a-93e4-04db69c9648f",
+                "url": "/",
+                "title": "Deco"
+              },
+              {
+                "url": "/",
+                "title": "shopify",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/eb189838-e112-4d0e-80c1-4b9008dbf955"
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/99f4acd4-122f-4b3b-a925-af5b5c9ccecd"
+              },
+              {}
+            ]
+          }
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/CourseContent/DecoSection.tsx",
+            "title": {
+              "text": "Se torne um mestre em ",
+              "textHighlight": "deco.cx"
+            },
+            "subtitle": "Aqui você encontra tudo que precisa para dominar a maior plataforma headless",
+            "cards": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

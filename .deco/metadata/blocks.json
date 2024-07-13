@@ -232,5 +232,11 @@
   "/.deco/blocks/v1%20Home.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/ContainerContent.tsx"
+  },
+  "/.deco/blocks/pages-test-maiza-2-147744.json": {
+    "name": "test-maiza-2",
+    "path": "/test-maiza-2",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
