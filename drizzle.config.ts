@@ -6,6 +6,7 @@ interface Code {
   close: string;
   regexp: RegExp;
 }
+
 /**
  * Builds color code
  * @param open
