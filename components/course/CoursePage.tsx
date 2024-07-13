@@ -1,6 +1,8 @@
 import type { HTMLWidget, ImageWidget } from "apps/admin/widgets.ts";
 import { Fragment } from "preact";
 import Image from "apps/website/components/Image.tsx";
+import type { Course } from "../../sections/CourseContent/CourseSpot.tsx";
+import CourseSpot from "../../sections/CourseContent/CourseSpot.tsx";
 
 interface CourseDetails {
     title: string;
@@ -13,6 +15,15 @@ interface CourseSection {
     duration: string;
 }
 
+interface CourseTabs {
+    title: string;
+    content: HTMLWidget;
+}
+
+interface CourseIncludes {
+    item: string;
+}
+
 interface CourseContentProps {
     sections: CourseSection[];
 }
@@ -21,12 +32,20 @@ interface CourseDetailsProps {
     details: CourseDetails[];
 }
 
-interface Course {
+interface CourseIncludesProps {
+    includes: CourseIncludes[];
+}
+
+interface CourseTabsProps {
+    tabsCourse: CourseTabs[];
+}
+
+interface MainCourse {
     url?: string;
     title?: string;
     instructor?: string;
     excerpt?: string;
-    description?: string;
+    description?: HTMLWidget;
     image?: string;
     imageInstructor?: string;
     date?: string;
@@ -35,10 +54,18 @@ interface Course {
     difficulty?: string;
     sections?: CourseSection[];
     details?: CourseDetails[];
+    courseIncludes?: CourseIncludes[];
+    individualCourse?: Course;
+    tabsCourse?: CourseTabs[];
 }
 
 interface Props {
-    course?: Course;
+    course?: MainCourse;
+}
+
+
+function addClassesToTitles(html: string) {
+    return html.replace(/<(h[1-6])(.*?)>/g, '<$1$2 class="font-bold text-xl">');
 }
 
 const DEFAULT_IMAGE = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
@@ -49,7 +76,7 @@ const CourseContent = ({ sections }: CourseContentProps) => (
         <h3 class="text-xl font-bold text-white mb-4">Conteúdo do curso</h3>
         <div class="space-y-4">
             {sections.map((section) => (
-                <div class="flex justify-between items-center bg-[#2E2E2E] rounded-lg p-4">
+                <div class="flex justify-between items-center bg-[#2E2E2E] rounded-xl p-4">
                     <h4 class="text-lg font-bold text-white">{section.title}</h4>
                     <span class="text-sm text-[#A4A4A4]">{section.duration}</span>
                 </div>
@@ -73,9 +100,37 @@ const CourseDetailsContent = ({ details }: CourseDetailsProps) => (
     </div>
 );
 
-function addClassesToTitles(html: string) {
-    return html.replace(/<(h[1-6])(.*?)>/g, '<$1$2 class="font-bold text-xl">');
-}
+const CourseIncludesContent = ({ includes }: CourseIncludesProps) => (
+    <div class="">
+        {includes.map((include) => (
+            <li class="flex items-center mb-4">
+                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H4.5L7.1875 4.0625C5.875 4.21875 4.65625 4.78125 3.71875 5.625L0 0ZM16 0L12.25 5.625C11.3125 4.78125 10.0938 4.21875 8.78125 4.0625L11.5 0H16ZM2.5 10.5C2.5 8.5625 3.53125 6.75 5.25 5.75C6.9375 4.78125 9.03125 4.78125 10.75 5.75C12.4375 6.75 13.5 8.5625 13.5 10.5C13.5 12.4688 12.4375 14.2812 10.75 15.2812C9.03125 16.25 6.9375 16.25 5.25 15.2812C3.53125 14.2812 2.5 12.4688 2.5 10.5ZM8 7.5L7.0625 9.3125L5 9.59375L6.5 10.9688L6.125 12.9375L8 12L9.84375 12.9375L9.5 10.9688L11 9.59375L8.90625 9.3125L8 7.5Z" fill="white" /></svg>
+                <p class="text-base ml-2">{include.item}</p>
+            </li>
+        ))}
+    </div>
+);
+
+const CourseTabs = ({ tabsCourse }: CourseTabsProps) => (
+    <>
+        {tabsCourse.map((tab, index) => (
+            <>
+                <input
+                    type="radio"
+                    name="my_tabs" // Substitui espaços por hífens
+                    role="tab"
+                    className="tab after:whitespace-nowrap after:text-lg after:font-bold border-[#02CAF6] checked:border-[#02CAF6] checked:border-b-2" 
+                    aria-label={tab.title}
+                    defaultChecked={index === 0} // Somente o primeiro tem defaultChecked
+                />
+                <div role="tabpanel" className="tab-content py-6" dangerouslySetInnerHTML={{ __html: addClassesToTitles(tab.content) }}>
+                </div>
+            </>
+        ))}
+    </>
+);
+
+
 
 export default function CoursePage({ course }: Props) {
     const {
@@ -103,12 +158,45 @@ export default function CoursePage({ course }: Props) {
             { title: "Detalhe 2", text: "Texto do detalhe 2", difficulty: "Intermediário" },
             { title: "Detalhe 3", text: "Texto do detalhe 3", difficulty: "Avançado" },
         ],
+        courseIncludes = [
+            { item: "1,5 horas de conteúdo validado" },
+            { item: "5 exercícios de codificação" },
+            { item: "7 artigos" },
+        ],
+        individualCourse = {
+            url: "/",
+            title: "Montando um blog CMS completo em Webflow",
+            instructor: "Por: João Rocha",
+            excerpt: "Configurar o seu primeiro setup em deco.cx",
+            image: DEFAULT_IMAGE,
+            imageInstructor: DEFAULT_IMAGE_INSTRUCTOR,
+            date: "01 Apr 2024",
+            duration: "2 hours",
+            price: "R$49,90",
+            difficulty: "Iniciante",
+            priceBackgroundColor: "#02CAF6",
+        },
+        tabsCourse = [
+            {
+                title: "Sobre o curso",
+                content: "<h2>O que você aprenderá:</h2><p><br></p><p>Configurar o seu primeiro setup em deco.cx</p><p><br></p><p>Desenvolver raciocínio lógico de setup</p>"
+            },
+            {
+                title: "Conteúdos",
+                content: "<h2>O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:O que você aprenderá:</h2><p><br></p><p>Configurar o seu primeiro setup em deco.cx</p><p><br></p><p>Desenvolver raciocínio lógico de setup</p>"
+            },
+            {
+                title: "Detalhes",
+                content: "<h2>O que você aprenderá:</h2><p><br></p><p>Configurar o seu primeiro setup em deco.cx</p><p><br></p><p>Desenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setupDesenvolver raciocínio lógico de setup</p>"
+            },
+        ]
     } = course || {};
 
     const processedDescription = addClassesToTitles(description);
 
     return (
-        <div class="p-6 flex flex-col md:flex-row gap-8">
+        <div class="p-6 flex flex-col md:flex-row gap-10">
+            {/* SEÇÃO PRINCIPAL */}
             <div class="w-3/4 mx-auto flex flex-col gap-4">
                 <div class="flex flex-col items-start mb-4">
                     <span class="px-4 py-2 bg-white text-black font-bold text-sm rounded-2xl mb-4">{difficulty}</span>
@@ -172,35 +260,36 @@ export default function CoursePage({ course }: Props) {
                 <div class="mb-4">
                     <CourseContent sections={sections} />
                 </div>
-                <div class="flex justify-between items-center mt-4 text-[#A4A4A4]">
-                    <span>{date}</span>
-                    <span>{duration}</span>
-                    <span>{price}</span>
-                </div>
 
-                <div class="p-8 mb-4">
-                    <div class="border-b border-[#2E2E2E] mb-4">
-                        <nav class="flex justify-around">
-                            <button class="text-white font-bold py-2 px-4" hx-get="/about" hx-target="#tab-content">Sobre</button>
-                            <button class="text-white font-bold py-2 px-4" hx-get="/details" hx-target="#tab-content">Detalhes</button>
-                            <button class="text-white font-bold py-2 px-4" hx-get="/reviews" hx-target="#tab-content">Avaliações</button>
-                        </nav>
-                    </div>
-                    <div id="tab-content" class="text-white">
-                        <h4 class="font-bold text-xl mb-2">Sobre este curso</h4>
-                        <div class="flex justify-between items-center">
-                            <span>52% completo</span>
-                            <span class="bg-white text-black font-bold py-1 px-3 rounded-full">Iniciante</span>
-                        </div>
-                        <p class="mt-4">{excerpt}</p>
-                        <div class="mt-4" dangerouslySetInnerHTML={{ __html: processedDescription }} />
-                    </div>
+                <div role="tablist" className="tabs tabs-bordered">
+                    <CourseTabs tabsCourse={tabsCourse} />
                 </div>
             </div>
 
-            <div class="w-1/4 flex items-start mb-4">
-                <div class="flex items-center mb-6 bg-[#1E1E1E] p-4 ">
-                    <img src={image} alt={title} class="w-full h-40 object-cover rounded-2xl" />
+            {/* SEÇÃO LATERAL */}
+            <div class="w-1/4 flex flex-col items-start mb-4">
+                <div class="flex items-center w-full">
+                    <img src={image} alt={title} class="w-full h-44 object-cover rounded-2xl" />
+                </div>
+                <div class="flex justify-start items-center my-6 ">
+                    <span class="text-3xl font-bold text-white">{price}</span>
+                </div>
+                <button class="w-full bg-[#01D859] text-black font-bold py-4 px-4 rounded-lg mb-4 text-sm">
+                    Adicionar ao carrinho
+                </button>
+                <button class="w-full bg-[#FFFFFF14] text-white font-bold py-4 px-4 rounded-lg mb-6 text-sm">
+                    Comprar agora
+                </button>
+
+                <div class="py-2 mb-4 flex flex-col">
+                    <h4 class="font-bold text-lg mb-4">Este curso inclui:</h4>
+                    <ul class="space-y-2 flex flex-col">
+                        <CourseIncludesContent includes={courseIncludes} />
+                    </ul>
+                </div>
+                <div class="py-2 mb-4 flex flex-col">
+                    <h4 class="font-bold text-lg mb-4 text-white">Quem fez este curso também comprou:</h4>
+                    <CourseSpot course={individualCourse} />
                 </div>
             </div>
 
