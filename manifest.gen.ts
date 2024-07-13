@@ -44,6 +44,7 @@ import * as $$$$$$27 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$28 from "./sections/Social/WhatsApp.tsx";
 import * as $$$$$$29 from "./sections/Theme/Theme.tsx";
 
+
 const manifest = {
   "loaders": {
     "site/loaders/availableIcons.ts": $$$0,
@@ -57,6 +58,7 @@ const manifest = {
     "site/sections/Category/CategoryBanner.tsx": $$$$$$1,
     "site/sections/Category/CategoryGrid.tsx": $$$$$$2,
     "site/sections/Component.tsx": $$$$$$3,
+
     "site/sections/ContainerContent.tsx": $$$$$$4,
     "site/sections/Content/Faq.tsx": $$$$$$5,
     "site/sections/Content/Hero.tsx": $$$$$$6,

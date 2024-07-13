@@ -1,0 +1,87 @@
+{
+  "name": "Home Joao",
+  "path": "/joao",
+  "sections": [
+    {
+      "__resolveType": "site/sections/CourseContent/CarouselSpot.tsx",
+      "cards": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "title": "Todo mundo está de olho"
+    },
+    {
+      "__resolveType": "site/sections/Platforms/PlatformCarousel.tsx",
+      "cards": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "title": "Conteúdo para aprender as melhores plataformas"
+    },
+    {
+      "__resolveType": "site/sections/CourseContent/DecoSection.tsx",
+      "cards": [
+        {},
+        {},
+        {},
+        {
+          "priceBackgroundColor": "#04eb00",
+          "difficulty": "Avançado",
+          "price": "R$59,20",
+          "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/72d47997-a9cb-4543-8918-1069044e9331",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/2e2d63ef-86fc-4d3a-85cf-e41deee2909b",
+          "instructor": "Por: Rafael Pandeiro",
+          "title": "Titulo de teste",
+          "url": "/"
+        }
+      ],
+      "title": {
+        "0": "S",
+        "1": "e",
+        "2": " ",
+        "3": "t",
+        "4": "o",
+        "5": "r",
+        "6": "n",
+        "7": "e",
+        "8": " ",
+        "9": "u",
+        "10": "m",
+        "11": " ",
+        "12": "m",
+        "13": "e",
+        "14": "s",
+        "15": "t",
+        "16": "r",
+        "17": "e",
+        "18": " ",
+        "19": "e",
+        "20": "m",
+        "21": " ",
+        "22": "d",
+        "23": "e",
+        "24": "c",
+        "25": "o",
+        "26": ".",
+        "27": "c",
+        "28": "x",
+        "text": "Se torne um mestre em",
+        "textHighlight": "deco.cx"
+      },
+      "subtitle": "Aqui você encontra tudo que precisa para dominar a maior plataforma headless"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
