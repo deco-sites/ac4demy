@@ -131,6 +131,58 @@
           {}
         ]
       }
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Footer/FooterAc4demy.tsx",
+        "menuLinks": [
+          {
+            "title": "Sobre a plataforma",
+            "href": "/"
+          },
+          {
+            "title": "Ensine na AC4DEMY",
+            "href": "/"
+          },
+          {
+            "title": "Fale conosco",
+            "href": "/"
+          },
+          {
+            "title": "Ajuda e suporte",
+            "href": "/"
+          },
+          {
+            "title": "Políticas de privacidade",
+            "href": "/"
+          },
+          {
+            "title": "Termos de uso",
+            "href": "/"
+          }
+        ],
+        "socialLinks": [
+          {
+            "icon": "instagram",
+            "label": "Instagram",
+            "href": "https://www.instagram.com/tec4udigital/"
+          },
+          {
+            "icon": "facebook",
+            "label": "Facebook",
+            "href": "/"
+          },
+          {
+            "icon": "tiktok",
+            "label": "TikTok",
+            "href": "/"
+          }
+        ],
+        "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/31454ae0-a511-4faf-b9ee-a5e1ec9de97b",
+        "textEnterprise": "Um empresa",
+        "logoEnterprise": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/69031f1b-3205-4850-bcc2-f0173efa6afa",
+        "copyright": "© 2024, TEC4U Digital. Todos os direitos reservados."
+      }
     }
   ]
 }
