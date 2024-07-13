@@ -24,6 +24,10 @@ export type AvailableIcons =
   | "bell"
   | "user"
   | "bookIco"
+  | "ac4demy-four"
+  | "instagram"
+  | "facebook"
+  | "tiktok"
   | "sack_dollar";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
