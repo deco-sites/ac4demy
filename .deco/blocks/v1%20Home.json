@@ -45,7 +45,9 @@
         "cards": [
           {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/912ec02a-62d1-4bbf-94ed-d06ae929cd13",
-            "difficulty": "Iniciante"
+            "difficulty": "Iniciante",
+            "url": "/cursos/montando-blog",
+            "title": "Montado um blog"
           },
           {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0676008e-e61d-4032-a890-00c2c3d243eb",

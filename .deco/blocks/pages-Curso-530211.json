@@ -1,0 +1,155 @@
+{
+  "name": "Curso",
+  "path": "/cursos/:slug",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Header/HeaderTop.tsx",
+            "placeholderBusca": "Encontre o seu curso"
+          }
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/CoursePageSlug.tsx",
+            "courses": [
+              {
+                "sections": [
+                  {
+                    "title": "Introdução",
+                    "duration": "5:40"
+                  }
+                ],
+                "details": [
+                  {
+                    "title": "Teste",
+                    "text": "TEste",
+                    "difficulty": "Iniciante"
+                  }
+                ],
+                "courseIncludes": [
+                  {
+                    "item": "7 artigos"
+                  }
+                ],
+                "individualCourse": {
+                  "difficulty": "Iniciante"
+                },
+                "tabsCourse": [
+                  {
+                    "title": "Sobre",
+                    "content": "<p>Sobre o curso</p>"
+                  }
+                ],
+                "url": "/cursos/teste",
+                "title": "Montando um blog CMS completo em Webflow",
+                "instructor": "Joao",
+                "excerpt": "Teste",
+                "description": "<p>Teste</p>",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/960978de-4630-4bc0-b99d-42a2813c01e4",
+                "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/56c027af-bbca-4226-882b-cc931d26fe08",
+                "date": "HOJE",
+                "duration": "5 horas",
+                "price": "R$ 59,09",
+                "difficulty": "Iniciante"
+              },
+              {
+                "sections": [
+                  {
+                    "title": "Introdução",
+                    "duration": "5:40"
+                  }
+                ],
+                "details": [
+                  {
+                    "title": "Teste",
+                    "text": "TEste",
+                    "difficulty": "Iniciante"
+                  }
+                ],
+                "courseIncludes": [
+                  {
+                    "item": "7 artigos"
+                  }
+                ],
+                "individualCourse": {
+                  "difficulty": "Iniciante"
+                },
+                "tabsCourse": [
+                  {
+                    "title": "Sobre",
+                    "content": "<p>Sobre o curso</p>"
+                  },
+                  {
+                    "title": "Detalhes",
+                    "content": "<h2>Detalhes do curso</h2><p><br data-mce-bogus=\"1\"></p><p>Teste</p>"
+                  }
+                ],
+                "url": "/cursos/curso-2",
+                "title": "Montando um blog CMS completo em sadasdasdasda",
+                "instructor": "Joao",
+                "excerpt": "Teste",
+                "description": "<p>Teste</p>",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/960978de-4630-4bc0-b99d-42a2813c01e4",
+                "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/56c027af-bbca-4226-882b-cc931d26fe08",
+                "date": "HOJE",
+                "duration": "5 horas",
+                "price": "R$ 59,09",
+                "difficulty": "Iniciante"
+              },
+              {
+                "sections": [
+                  {
+                    "title": "Introdução",
+                    "duration": "5:40"
+                  }
+                ],
+                "details": [
+                  {
+                    "title": "Teste",
+                    "text": "TEste",
+                    "difficulty": "Iniciante"
+                  }
+                ],
+                "courseIncludes": [
+                  {
+                    "item": "7 artigos"
+                  }
+                ],
+                "individualCourse": {
+                  "difficulty": "Iniciante"
+                },
+                "tabsCourse": [
+                  {
+                    "title": "Sobre",
+                    "content": "<p>Sobre o curso</p>"
+                  }
+                ],
+                "url": "/cursos/montando-blog",
+                "title": "Montando um blog ",
+                "instructor": "Joao",
+                "excerpt": "Teste",
+                "description": "<p>Teste</p>",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/a2d07903-2a3c-4c23-bae9-bcfb3dc1ba68",
+                "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/56c027af-bbca-4226-882b-cc931d26fe08",
+                "date": "HOJE",
+                "duration": "5 horas",
+                "price": "R$ 59,09",
+                "difficulty": "Iniciante"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

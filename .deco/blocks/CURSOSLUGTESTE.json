@@ -1,0 +1,45 @@
+{
+  "__resolveType": "site/sections/CoursePageSlug.tsx",
+  "courses": [
+    {
+      "sections": [
+        {
+          "title": "Introdução",
+          "duration": "5:40"
+        }
+      ],
+      "details": [
+        {
+          "title": "Teste",
+          "text": "TEste",
+          "difficulty": "Iniciante"
+        }
+      ],
+      "courseIncludes": [
+        {
+          "item": "7 artigos"
+        }
+      ],
+      "individualCourse": {
+        "difficulty": "Iniciante"
+      },
+      "tabsCourse": [
+        {
+          "title": "Sobre",
+          "content": "<p>Sobre o curso</p>"
+        }
+      ],
+      "url": "/curso/teste",
+      "title": "Montando um blog CMS completo em Webflow",
+      "instructor": "Joao",
+      "excerpt": "Teste",
+      "description": "<p>Teste</p>",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/960978de-4630-4bc0-b99d-42a2813c01e4",
+      "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/56c027af-bbca-4226-882b-cc931d26fe08",
+      "date": "HOJE",
+      "duration": "5 horas",
+      "price": "R$ 59,09",
+      "difficulty": "Iniciante"
+    }
+  ]
+}
