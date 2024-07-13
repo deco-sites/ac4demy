@@ -26,8 +26,8 @@ import * as $$$$$$9 from "./sections/CourseContent/CarouselSpot.tsx";
 import * as $$$$$$10 from "./sections/CourseContent/CourseSpot.tsx";
 import * as $$$$$$11 from "./sections/CourseContent/DecoSection.tsx";
 import * as $$$$$$12 from "./sections/CoursePage.tsx";
-import * as $$$$$$13 from "./sections/CoursePageSlug.tsx";
-import * as $$$$$$14 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$13 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$14 from "./sections/Footer/FooterAc4demy.tsx";
 import * as $$$$$$15 from "./sections/Hackathon/CarrouselMainBanners.tsx";
 import * as $$$$$$16 from "./sections/Header/Header.tsx";
 import * as $$$$$$17 from "./sections/Header/HeaderLateral.tsx";
@@ -75,8 +75,8 @@ const manifest = {
     "site/sections/CourseContent/CourseSpot.tsx": $$$$$$10,
     "site/sections/CourseContent/DecoSection.tsx": $$$$$$11,
     "site/sections/CoursePage.tsx": $$$$$$12,
-    "site/sections/CoursePageSlug.tsx": $$$$$$13,
-    "site/sections/Footer/Footer.tsx": $$$$$$14,
+    "site/sections/Footer/Footer.tsx": $$$$$$13,
+    "site/sections/Footer/FooterAc4demy.tsx": $$$$$$14,
     "site/sections/Hackathon/CarrouselMainBanners.tsx": $$$$$$15,
     "site/sections/Header/Header.tsx": $$$$$$16,
     "site/sections/Header/HeaderLateral.tsx": $$$$$$17,
