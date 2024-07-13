@@ -53,3 +53,6 @@
     --dot-progress: 100%
   }
 }
+@view-transition {
+  navigation: auto;
+}
