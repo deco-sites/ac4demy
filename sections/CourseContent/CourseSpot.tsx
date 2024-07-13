@@ -17,6 +17,7 @@ export interface Course {
   difficulty?: "Iniciante" | "Intermediário" | "Avançado";
   /** @format color */
   priceBackgroundColor?: string;
+  category?: "Desenvolvimento" | "Social Media" | "UI/UX Design" | "Marketing" | "Operações"
 }
 
 export interface Props {

@@ -120,6 +120,93 @@
     },
     {
       "section": {
+        "__resolveType": "site/sections/Hackathon/CarouselSpotMenu.tsx",
+        "cards": [
+          {
+            "difficulty": "Intermediário",
+            "category": "Desenvolvimento",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/39565a9f-2d4c-4938-b5a5-5670b60dc7a5",
+            "url": "/cursos/a-linguagem-do-futuro",
+            "title": "A linguagem do futuro - ReactJS",
+            "instructor": "Por: Rafael Oliveira",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1ad23b2d-e46e-4a22-97ff-421ad3f82c80",
+            "priceBackgroundColor": "#02caf6",
+            "duration": "dasd"
+          },
+          {
+            "difficulty": "Intermediário",
+            "category": "Operações",
+            "url": "/cursos/revolucionamos-a-forma-da-sua-marca-conectar-lojas",
+            "title": "Revolucionamos a forma da sua marca conectar lojas",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5be22d78-0fb7-40e6-9895-adc4fcfc7088"
+          },
+          {
+            "difficulty": "Avançado",
+            "category": "UI/UX Design",
+            "url": "/cursos/montando-um-blog-CMS-completo-em-webflow",
+            "title": "Montando um blog CMS completo em Webflow",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/457a5468-ac41-428b-971b-e6544daf15e2",
+            "instructor": "Por: Nícolas de Queiróz",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8f4f2611-288a-44e6-b834-a8e86ef11525"
+          },
+          {
+            "difficulty": "Intermediário",
+            "category": "Operações",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/830992c3-9100-47dc-b9c1-98f1735f9ab8",
+            "url": "/cursos/5-motivos-para-ter-seu-e-commerce-em-magento",
+            "title": "5 motivos para ter seu E-commerce em Magento. ",
+            "instructor": "Por: Maiza Dantas",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c8b385be-8681-494f-bb08-2e5568279ee2"
+          },
+          {
+            "difficulty": "Avançado",
+            "category": "UI/UX Design",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5fb6a3d3-a787-41be-879b-4450635f76b6",
+            "url": "/cursos/revolutionizing-web-development-with-HTMX",
+            "title": "Web Development with HTMX: A Paradigm Shift",
+            "instructor": "Por: Rafael Oliveira",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/38834e83-e616-4869-b83f-ef049a956613"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Operações"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Marketing"
+          }
+        ],
+        "categoriesMenu": [
+          {
+            "category": "Ver tudo",
+            "label": "Ver tudo"
+          },
+          {
+            "category": "Desenvolvimento",
+            "label": "Desenvolvimento"
+          },
+          {
+            "category": "Social Media",
+            "label": "Social Media"
+          },
+          {
+            "category": "UI/UX Design",
+            "label": "UI/UX Design"
+          },
+          {
+            "category": "Marketing",
+            "label": "Marketing"
+          },
+          {
+            "category": "Operações",
+            "label": "Operações"
+          }
+        ],
+        "title": "Estude conforme as suas aptidões"
+      }
+    },
+    {
+      "section": {
         "__resolveType": "site/sections/CourseContent/DecoSection.tsx",
         "title": {
           "text": "Se torne um mestre em ",
