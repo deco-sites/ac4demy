@@ -242,5 +242,11 @@
   "/.deco/blocks/CURSOSLUGTESTE.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/CoursePageSlug.tsx"
+  },
+  "/.deco/blocks/pages-TEste-246067.json": {
+    "name": "TEste",
+    "path": "/teste",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

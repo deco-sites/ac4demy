@@ -1,0 +1,31 @@
+{
+  "name": "TEste",
+  "path": "/teste",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Header/HeaderTop.tsx"
+          }
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/InstagramSection.tsx",
+            "title": "AC4DEMY é o braço de conteúdo",
+            "subtitle": "@tec4udigital",
+            "token": "8400062803342894"
+          }
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
