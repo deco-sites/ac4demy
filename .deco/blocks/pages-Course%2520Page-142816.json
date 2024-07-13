@@ -1,0 +1,31 @@
+{
+  "name": "Course Page",
+  "path": "/course/:slug",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "Header"
+          }
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Hackathon/CoursePageContainer.tsx",
+            "course": {
+              "title": "Aprendendo a configurar o setup com deco.cx"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

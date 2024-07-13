@@ -233,6 +233,7 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
+<<<<<<< Updated upstream
   "/.deco/blocks/pages-Curso-530211.json": {
     "name": "Curso",
     "path": "/cursos/:slug",
@@ -250,4 +251,18 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/deco-records.json": null
+=======
+  "/.deco/blocks/pages-Course%2520Page-142816.json": {
+    "name": "Course Page",
+    "path": "/course/:slug",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Course%2520Page%2520TESTE-297723.json": {
+    "name": "Course Page TESTE",
+    "path": "/course/teste",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  }
+>>>>>>> Stashed changes
 }

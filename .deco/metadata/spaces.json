@@ -2760,8 +2760,13 @@
       }
     },
     {
+<<<<<<< Updated upstream
       "id": "/.deco/blocks/pages-Page%2520Course-403717.json",
       "name": "Page Course",
+=======
+      "id": "/.deco/blocks/pages-Course%2520Page-142816.json",
+      "name": "Course Page",
+>>>>>>> Stashed changes
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -2810,12 +2815,21 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
+<<<<<<< Updated upstream
                     "id": "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Properties::list::Properties::%7B%7D",
                     "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Properties::list::Properties::%7B%7D"
+=======
+                    "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Properties::list::Properties::%7B%7D"
+>>>>>>> Stashed changes
                     },
                     "width": 30,
                     "isClosable": true,
@@ -2832,12 +2846,21 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
+<<<<<<< Updated upstream
                     "id": "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Preview::visibility::Preview::%7B%7D",
                     "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Preview::visibility::Preview::%7B%7D"
+=======
+                    "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Preview::visibility::Preview::%7B%7D"
+>>>>>>> Stashed changes
                     },
                     "width": 70,
                     "isClosable": true,
@@ -2855,26 +2878,42 @@
         "maximisedItemId": null
       },
       "tabs": {
+<<<<<<< Updated upstream
         "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Properties::list::Properties::%7B%7D": {
+=======
+        "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Properties::list::Properties::%7B%7D": {
+>>>>>>> Stashed changes
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
+<<<<<<< Updated upstream
           "id": "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Properties::list::Properties::%7B%7D",
+=======
+          "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Properties::list::Properties::%7B%7D",
+>>>>>>> Stashed changes
           "state": {
             "__signal": null
           }
         },
+<<<<<<< Updated upstream
         "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Preview::visibility::Preview::%7B%7D": {
+=======
+        "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Preview::visibility::Preview::%7B%7D": {
+>>>>>>> Stashed changes
           "name": "Preview",
           "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
+<<<<<<< Updated upstream
           "id": "%2F.deco%2Fblocks%2Fpages-Page%252520Course-403717.json::Preview::visibility::Preview::%7B%7D",
+=======
+          "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page-142816.json::Preview::visibility::Preview::%7B%7D",
+>>>>>>> Stashed changes
           "state": {
             "__signal": null
           }
@@ -2882,6 +2921,7 @@
       }
     },
     {
+<<<<<<< Updated upstream
       "id": "/.deco/blocks/pages-Landing%2520Page%2520(Woman)-585575.json",
       "name": "Landing Page (Women)",
       "pinned": false,
@@ -2905,6 +2945,10 @@
     {
       "id": "/.deco/blocks/pages-Curso-530211.json",
       "name": "Curso",
+=======
+      "id": "/.deco/blocks/pages-Course%2520Page%2520TESTE-297723.json",
+      "name": "Course Page TESTE",
+>>>>>>> Stashed changes
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -2953,12 +2997,21 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
+<<<<<<< Updated upstream
                     "id": "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Properties::list::Properties::%7B%7D",
                     "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Properties::list::Properties::%7B%7D"
+=======
+                    "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Properties::list::Properties::%7B%7D"
+>>>>>>> Stashed changes
                     },
                     "width": 30,
                     "isClosable": true,
@@ -2975,12 +3028,21 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
+<<<<<<< Updated upstream
                     "id": "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Preview::visibility::Preview::%7B%7D",
                     "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Preview::visibility::Preview::%7B%7D"
+=======
+                    "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Preview::visibility::Preview::%7B%7D"
+>>>>>>> Stashed changes
                     },
                     "width": 70,
                     "isClosable": true,
@@ -2998,25 +3060,38 @@
         "maximisedItemId": null
       },
       "tabs": {
+<<<<<<< Updated upstream
         "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Properties::list::Properties::%7B%7D": {
+=======
+        "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Properties::list::Properties::%7B%7D": {
+>>>>>>> Stashed changes
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
+<<<<<<< Updated upstream
           "id": "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Properties::list::Properties::%7B%7D",
+=======
+          "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Properties::list::Properties::%7B%7D",
+>>>>>>> Stashed changes
           "state": {
             "__signal": null
           }
         },
+<<<<<<< Updated upstream
         "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Preview::visibility::Preview::%7B%7D": {
+=======
+        "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Preview::visibility::Preview::%7B%7D": {
+>>>>>>> Stashed changes
           "name": "Preview",
           "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
+<<<<<<< Updated upstream
           "id": "%2F.deco%2Fblocks%2Fpages-Curso-530211.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
@@ -3262,6 +3337,9 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-TEste-246067.json::Preview::visibility::Preview::%7B%7D",
+=======
+          "id": "%2F.deco%2Fblocks%2Fpages-Course%252520Page%252520TESTE-297723.json::Preview::visibility::Preview::%7B%7D",
+>>>>>>> Stashed changes
           "state": {
             "__signal": null
           }

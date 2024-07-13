@@ -27,10 +27,17 @@ import * as $$$$$$9 from "./sections/CourseContent/CarouselSpot.tsx";
 import * as $$$$$$10 from "./sections/CourseContent/CourseSpot.tsx";
 import * as $$$$$$11 from "./sections/CourseContent/DecoSection.tsx";
 import * as $$$$$$12 from "./sections/CoursePage.tsx";
+<<<<<<< Updated upstream
 import * as $$$$$$13 from "./sections/CoursePageSlug.tsx";
 import * as $$$$$$14 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$15 from "./sections/Footer/FooterAc4demy.tsx";
 import * as $$$$$$16 from "./sections/Hackathon/CarrouselMainBanners.tsx";
+=======
+import * as $$$$$$13 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$14 from "./sections/Footer/FooterAc4demy.tsx";
+import * as $$$$$$15 from "./sections/Hackathon/CarrouselMainBanners.tsx";
+import * as $$$$$$16 from "./sections/Hackathon/CoursePageContainer.tsx";
+>>>>>>> Stashed changes
 import * as $$$$$$17 from "./sections/Header/Header.tsx";
 import * as $$$$$$18 from "./sections/Header/HeaderLateral.tsx";
 import * as $$$$$$19 from "./sections/Header/HeaderTop.tsx";
@@ -44,6 +51,7 @@ import * as $$$$$$26 from "./sections/Miscellaneous/CookieConsent.tsx";
 import * as $$$$$$27 from "./sections/Newsletter/Newsletter.tsx";
 import * as $$$$$$28 from "./sections/Platforms/PlatformCarousel.tsx";
 import * as $$$$$$29 from "./sections/Platforms/PlatformsItem.tsx";
+<<<<<<< Updated upstream
 import * as $$$$$$30 from "./sections/PostsImageSection.tsx";
 import * as $$$$$$31 from "./sections/Product/ProductDetails.tsx";
 import * as $$$$$$32 from "./sections/Product/ProductShelf.tsx";
@@ -55,6 +63,18 @@ import * as $$$$$$37 from "./sections/Session.tsx";
 import * as $$$$$$38 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$39 from "./sections/Social/WhatsApp.tsx";
 import * as $$$$$$40 from "./sections/Theme/Theme.tsx";
+=======
+import * as $$$$$$30 from "./sections/Product/ProductDetails.tsx";
+import * as $$$$$$31 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$32 from "./sections/Product/ProductShelfTabbed.tsx";
+import * as $$$$$$33 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$34 from "./sections/Product/ShelfWithImage.tsx";
+import * as $$$$$$35 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$36 from "./sections/Session.tsx";
+import * as $$$$$$37 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$38 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$39 from "./sections/Theme/Theme.tsx";
+>>>>>>> Stashed changes
 
 const manifest = {
   "loaders": {
@@ -78,10 +98,17 @@ const manifest = {
     "site/sections/CourseContent/CourseSpot.tsx": $$$$$$10,
     "site/sections/CourseContent/DecoSection.tsx": $$$$$$11,
     "site/sections/CoursePage.tsx": $$$$$$12,
+<<<<<<< Updated upstream
     "site/sections/CoursePageSlug.tsx": $$$$$$13,
     "site/sections/Footer/Footer.tsx": $$$$$$14,
     "site/sections/Footer/FooterAc4demy.tsx": $$$$$$15,
     "site/sections/Hackathon/CarrouselMainBanners.tsx": $$$$$$16,
+=======
+    "site/sections/Footer/Footer.tsx": $$$$$$13,
+    "site/sections/Footer/FooterAc4demy.tsx": $$$$$$14,
+    "site/sections/Hackathon/CarrouselMainBanners.tsx": $$$$$$15,
+    "site/sections/Hackathon/CoursePageContainer.tsx": $$$$$$16,
+>>>>>>> Stashed changes
     "site/sections/Header/Header.tsx": $$$$$$17,
     "site/sections/Header/HeaderLateral.tsx": $$$$$$18,
     "site/sections/Header/HeaderTop.tsx": $$$$$$19,
@@ -95,6 +122,7 @@ const manifest = {
     "site/sections/Newsletter/Newsletter.tsx": $$$$$$27,
     "site/sections/Platforms/PlatformCarousel.tsx": $$$$$$28,
     "site/sections/Platforms/PlatformsItem.tsx": $$$$$$29,
+<<<<<<< Updated upstream
     "site/sections/PostsImageSection.tsx": $$$$$$30,
     "site/sections/Product/ProductDetails.tsx": $$$$$$31,
     "site/sections/Product/ProductShelf.tsx": $$$$$$32,
@@ -106,6 +134,18 @@ const manifest = {
     "site/sections/Social/InstagramPosts.tsx": $$$$$$38,
     "site/sections/Social/WhatsApp.tsx": $$$$$$39,
     "site/sections/Theme/Theme.tsx": $$$$$$40,
+=======
+    "site/sections/Product/ProductDetails.tsx": $$$$$$30,
+    "site/sections/Product/ProductShelf.tsx": $$$$$$31,
+    "site/sections/Product/ProductShelfTabbed.tsx": $$$$$$32,
+    "site/sections/Product/SearchResult.tsx": $$$$$$33,
+    "site/sections/Product/ShelfWithImage.tsx": $$$$$$34,
+    "site/sections/Product/Wishlist.tsx": $$$$$$35,
+    "site/sections/Session.tsx": $$$$$$36,
+    "site/sections/Social/InstagramPosts.tsx": $$$$$$37,
+    "site/sections/Social/WhatsApp.tsx": $$$$$$38,
+    "site/sections/Theme/Theme.tsx": $$$$$$39,
+>>>>>>> Stashed changes
   },
   "actions": {
     "site/actions/minicart/submit.ts": $$$$$$$$$0,

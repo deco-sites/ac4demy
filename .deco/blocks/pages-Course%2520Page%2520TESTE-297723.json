@@ -1,0 +1,86 @@
+{
+  "name": "Course Page TESTE",
+  "path": "/course/teste",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Hackathon/CoursePageContainer.tsx",
+            "course": {
+              "category": "Curso",
+              "videoDetails": {
+                "videoUrl": "https://www.youtube.com/watch?v=DvCvXwQ86k4",
+                "width": 650,
+                "height": 402,
+                "alt": "alt video"
+              },
+              "tabs": [
+                {
+                  "title": "Sobre",
+                  "content": "<h2>SOBRE</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                },
+                {
+                  "title": "Detalhes",
+                  "content": "<h2>DETALHES</h2><p>Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur.</p>"
+                },
+                {
+                  "title": "Detalhes",
+                  "content": "<h2>DETALHES</h2><p>Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur.</p>"
+                }
+              ],
+              "title": "Aprendendo a configurar o setup com deco.cx"
+            },
+            "contentNavigation": {
+              "items": [
+                {
+                  "title": "Introdução",
+                  "duration": "05:45",
+                  "url": "/course/teste/introducao"
+                },
+                {
+                  "title": "Primeiros passos",
+                  "duration": "05:50",
+                  "url": "/course/teste/primeiros-passos"
+                },
+                {
+                  "title": "Primeiros passos",
+                  "duration": "05:50",
+                  "url": "/course/teste/primeiros-passos"
+                },
+                {
+                  "title": "Primeiros passos",
+                  "duration": "05:50",
+                  "url": "/course/teste/primeiros-passos"
+                },
+                {
+                  "title": "Primeiros passos",
+                  "duration": "05:50",
+                  "url": "/course/teste/primeiros-passos"
+                }
+              ],
+              "titleNav": "Conteúdo do curso"
+            },
+            "courseSuggestion": {
+              "difficulty": "Iniciante",
+              "url": "/course/teste",
+              "title": "JavaScript em deco.cx"
+            },
+            "suggestionTitle": "Quem fez este curso também comprou:"
+          }
+        },
+        {
+          "section": {}
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
