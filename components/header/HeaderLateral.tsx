@@ -29,7 +29,6 @@ export interface Props {
 export default function HeaderLateral(
   { logo, menu, inviteFriend, url }: SectionProps<typeof loader>,
 ) {
-
   const newUrl = new URL(url);
 
   return (
@@ -59,12 +58,16 @@ export default function HeaderLateral(
                       "bg-primary rounded-lg text-base-200"
                     }`}
                   >
-                    <Icon id={icon} size={18} stroke-width={1} class={`${
-                      newUrl.pathname === href ?
-                      "text-black opacity-100"
-                      :
-                      "text-white opacity-60"
-                    }`}/>
+                    <Icon
+                      id={icon}
+                      size={18}
+                      stroke-width={1}
+                      class={`${
+                        newUrl.pathname === href
+                          ? "text-black opacity-100"
+                          : "text-white opacity-60"
+                      }`}
+                    />
                     <a
                       href={href}
                       class={`text-sm font-semibold text-opacity-60`}

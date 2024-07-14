@@ -5,289 +5,347 @@
       "__resolveType": "HeaderLateral - Geral"
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
         {
-          "value": {
-            "__resolveType": "site/sections/ContainerContent.tsx",
-            "sections": [
+          "section": {
+            "__resolveType": "site/sections/CoursePageSlug.tsx",
+            "courses": [
               {
-                "section": {
-                  "__resolveType": "site/sections/CoursePage.tsx",
-                  "course": {
-                    "sections": [
-                      {
-                        "title": "Introdução",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Primeiros passos",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Execução 1",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Execução 2",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Execução 3",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Finalização",
-                        "duration": "05:45"
-                      }
-                    ],
-                    "details": [
-                      {
-                        "title": "Sobre",
-                        "text": "Sobre este curso",
-                        "difficulty": "Iniciante"
-                      },
-                      {
-                        "title": "teste",
-                        "text": "teste",
-                        "difficulty": "tetes"
-                      }
-                    ],
-                    "courseIncludes": [
-                      {
-                        "item": "1,5 horas de conteúdo validado"
-                      },
-                      {
-                        "item": "5 exercícios de codificação"
-                      },
-                      {
-                        "item": "5 exercícios de codificação"
-                      },
-                      {
-                        "item": "Acesso mobile e desktop"
-                      },
-                      {
-                        "item": "Acesso mobile e desktop"
-                      }
-                    ],
-                    "individualCourse": {
-                      "difficulty": "Iniciante",
-                      "category": "Desenvolvimento"
-                    },
-                    "tabsCourse": [
-                      {
-                        "title": "Sobre",
-                        "content": "<h2>Sobre este curso</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
-                      },
-                      {
-                        "title": "Detalhes",
-                        "content": "<h2>Detalhes</h2><p>Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac.</p>"
-                      },
-                      {
-                        "title": "Avaliações",
-                        "content": "<h2>Avaliações</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
-                      }
-                    ],
-                    "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
-                    "title": "Aprendendo a configurar o setup com deco.cx",
-                    "instructor": "Por: Rafael Oliveira",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/780853f3-3611-4e72-9f34-f0f01ad5f65c",
-                    "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/3cdb9bff-0442-4e95-a458-632b4a94f8c2"
+                "sections": [
+                  {
+                    "title": "Introdução",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Primeiros passos",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 1",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 2",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 3",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Finalização",
+                    "duration": "05:45"
                   }
-                }
-              }
-            ]
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ContainerContent.tsx",
-            "sections": [
-              {
-                "section": {
-                  "__resolveType": "site/sections/CoursePage.tsx",
-                  "course": {
-                    "sections": [
-                      {
-                        "title": "Introdução",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Primeiros passos",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Execução 1",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Execução 2",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Execução 3",
-                        "duration": "05:45"
-                      },
-                      {
-                        "title": "Finalização",
-                        "duration": "05:45"
-                      }
-                    ],
-                    "details": [
-                      {
-                        "title": "Sobre",
-                        "text": "Sobre este curso",
-                        "difficulty": "Iniciante"
-                      },
-                      {
-                        "title": "teste",
-                        "text": "teste",
-                        "difficulty": "tetes"
-                      }
-                    ],
-                    "courseIncludes": [
-                      {
-                        "item": "1,5 horas de conteúdo validado"
-                      },
-                      {
-                        "item": "5 exercícios de codificação"
-                      },
-                      {
-                        "item": "5 exercícios de codificação"
-                      },
-                      {
-                        "item": "Acesso mobile e desktop"
-                      },
-                      {
-                        "item": "Acesso mobile e desktop"
-                      }
-                    ],
-                    "individualCourse": {
-                      "difficulty": "Iniciante",
-                      "category": "Desenvolvimento"
-                    },
-                    "tabsCourse": [
-                      {
-                        "title": "Sobre",
-                        "content": "<h2>Sobre este curso</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
-                      },
-                      {
-                        "title": "Detalhes",
-                        "content": "<h2>Detalhes</h2><p>Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac.</p>"
-                      },
-                      {
-                        "title": "Avaliações",
-                        "content": "<h2>Avaliações</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
-                      }
-                    ],
-                    "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
-                    "title": "Aprendendo a configurar o setup com deco.cx",
-                    "instructor": "Por: Rafael Oliveira",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/780853f3-3611-4e72-9f34-f0f01ad5f65c",
-                    "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/3cdb9bff-0442-4e95-a458-632b4a94f8c2"
+                ],
+                "details": [
+                  {
+                    "title": "Sobre",
+                    "text": "Sobre este curso",
+                    "difficulty": "Iniciante"
+                  },
+                  {
+                    "title": "teste",
+                    "text": "teste",
+                    "difficulty": "tetes"
                   }
-                }
+                ],
+                "courseIncludes": [
+                  {
+                    "item": "1,5 horas de conteúdo validado"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  }
+                ],
+                "individualCourse": {
+                  "difficulty": "Avançado",
+                  "category": "Desenvolvimento",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/43eeae3c-1e2f-4bfa-8246-8a91aec408fa",
+                  "url": "/curso/java-script-em-deco.cx",
+                  "title": "JavaScript em deco.cx"
+                },
+                "tabsCourse": [
+                  {
+                    "title": "Sobre",
+                    "content": "<h2>Sobre este curso</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  },
+                  {
+                    "title": "Detalhes",
+                    "content": "<h2>Detalhes</h2><p>Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac.</p>"
+                  },
+                  {
+                    "title": "Avaliações",
+                    "content": "<h2>Avaliações</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  }
+                ],
+                "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+                "title": "Aprendendo a configurar o setup com deco.cx",
+                "instructor": "Por: Rafael Oliveira",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/787c90d9-6e37-46f9-b304-30572ae1c820",
+                "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/6507b3ad-a93d-4fa2-9923-b58a6c37e3ff"
               },
               {
-                "section": {
-                  "__resolveType": "site/sections/CoursePageSlug.tsx",
-                  "courses": [
-                    {
-                      "sections": [],
-                      "details": [],
-                      "courseIncludes": [],
-                      "individualCourse": {
-                        "difficulty": "Iniciante",
-                        "category": "Desenvolvimento"
-                      },
-                      "tabsCourse": [],
-                      "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
-                      "title": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
-                      "instructor": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx"
-                    }
-                  ]
-                }
-              }
-            ]
-          },
-          "rule": {
-            "__resolveType": "website/matchers/date.ts",
-            "start": "2024-07-01T03:00:00.000Z",
-            "end": "2024-07-10T15:00:00.000Z"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/ContainerContent.tsx",
-            "sections": [
+                "sections": [
+                  {
+                    "title": "Introdução",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Primeiros passos",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 1",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 2",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 3",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Finalização",
+                    "duration": "05:45"
+                  }
+                ],
+                "details": [
+                  {
+                    "title": "Sobre",
+                    "text": "Sobre este curso",
+                    "difficulty": "Iniciante"
+                  },
+                  {
+                    "title": "teste",
+                    "text": "teste",
+                    "difficulty": "tetes"
+                  }
+                ],
+                "courseIncludes": [
+                  {
+                    "item": "1,5 horas de conteúdo validado"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  }
+                ],
+                "individualCourse": {
+                  "difficulty": "Avançado",
+                  "category": "Desenvolvimento",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/d53d7e0d-af25-4453-b08c-d1d38d358a2b",
+                  "url": "/curso/java-script-em-deco.cx",
+                  "title": "JavaScript em deco.cx"
+                },
+                "tabsCourse": [
+                  {
+                    "title": "Sobre",
+                    "content": "<h2>Sobre este curso</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  },
+                  {
+                    "title": "Detalhes",
+                    "content": "<h2>Detalhes</h2><p>Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac.</p>"
+                  },
+                  {
+                    "title": "Avaliações",
+                    "content": "<h2>Avaliações</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  }
+                ],
+                "url": "/curso/montando-um-blog--completo-em-webflow",
+                "title": "Montando um blog CMS completo em Webflow",
+                "instructor": "Por: Nícolas de Queiróz",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/b226c668-9004-422e-9f9d-18f140e3859c",
+                "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c1981aaa-5c9d-4869-9aed-4a73619043ba"
+              },
               {
-                "section": {
-                  "__resolveType": "site/sections/CoursePageSlug.tsx",
-                  "courses": [
-                    {
-                      "sections": [
-                        {
-                          "title": "Introdução",
-                          "duration": "05:45"
-                        },
-                        {
-                          "title": "Primeiros passos",
-                          "duration": "05:50"
-                        },
-                        {
-                          "title": "Execução 1",
-                          "duration": "15:45"
-                        },
-                        {
-                          "title": "Execução 2",
-                          "duration": "15:45"
-                        }
-                      ],
-                      "details": [],
-                      "courseIncludes": [
-                        {
-                          "item": "1,5 horas de conteúdo validado"
-                        },
-                        {
-                          "item": "5 exercícios de codificação"
-                        },
-                        {
-                          "item": "7 artigos"
-                        },
-                        {
-                          "item": "Acesso mobile e desktop"
-                        }
-                      ],
-                      "individualCourse": {
-                        "difficulty": "Iniciante",
-                        "category": "Desenvolvimento"
-                      },
-                      "tabsCourse": [
-                        {
-                          "title": "Sobre",
-                          "content": "<h2>Sobre</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
-                        },
-                        {
-                          "title": "Detalhes",
-                          "content": "<h2>Detalhes</h2><p>Fusce non metus at augue aliquam facilisis. Sed lobortis lacus a nisl vulputate, vitae gravida risus varius. Morbi tellus felis, sollicitudin vel lacus ac, consectetur fringilla lorem.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec convallis tellus. Aenean ullamcorper vehicula lectus, ac gravida dui laoreet ut.</p>"
-                        }
-                      ],
-                      "url": "/curso/e-commerce-completo-em-deco-cx-nuvemshop",
-                      "title": "E-commerce em Deco.cx + Nuvemshop",
-                      "instructor": "Por: Maiza Dantas",
-                      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c2cce4c5-0fb7-4093-bce6-1ed9d740983d",
-                      "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/53fd5332-b3a9-4af5-a737-10349e85b569"
-                    }
-                  ]
-                }
+                "sections": [
+                  {
+                    "title": "Introdução",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Primeiros passos",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 1",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 2",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 3",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Finalização",
+                    "duration": "05:45"
+                  }
+                ],
+                "details": [
+                  {
+                    "title": "Sobre",
+                    "text": "Sobre este curso",
+                    "difficulty": "Iniciante"
+                  },
+                  {
+                    "title": "teste",
+                    "text": "teste",
+                    "difficulty": "tetes"
+                  }
+                ],
+                "courseIncludes": [
+                  {
+                    "item": "1,5 horas de conteúdo validado"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  }
+                ],
+                "individualCourse": {
+                  "difficulty": "Avançado",
+                  "category": "Desenvolvimento",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/d53d7e0d-af25-4453-b08c-d1d38d358a2b",
+                  "url": "/curso/java-script-em-deco.cx",
+                  "title": "JavaScript em deco.cx"
+                },
+                "tabsCourse": [
+                  {
+                    "title": "Sobre",
+                    "content": "<h2>Sobre este curso</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  },
+                  {
+                    "title": "Detalhes",
+                    "content": "<h2>Detalhes</h2><p>Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac.</p>"
+                  },
+                  {
+                    "title": "Avaliações",
+                    "content": "<h2>Avaliações</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  }
+                ],
+                "url": "/curso/e-commerce-completo-em-deco-cx-nuvemshop",
+                "title": "E-commerce em Deco.cx + Nuvemshop",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/eaf5586c-89f3-4363-b1fd-5fcba2a74d68",
+                "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/3dd19aa5-6821-4bcc-a3fd-28c2add83e19",
+                "instructor": "Por: Maiza Dantas"
+              },
+              {
+                "sections": [
+                  {
+                    "title": "Introdução",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Primeiros passos",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 1",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 2",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Execução 3",
+                    "duration": "05:45"
+                  },
+                  {
+                    "title": "Finalização",
+                    "duration": "05:45"
+                  }
+                ],
+                "details": [
+                  {
+                    "title": "Sobre",
+                    "text": "Sobre este curso",
+                    "difficulty": "Iniciante"
+                  },
+                  {
+                    "title": "teste",
+                    "text": "teste",
+                    "difficulty": "tetes"
+                  }
+                ],
+                "courseIncludes": [
+                  {
+                    "item": "1,5 horas de conteúdo validado"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "5 exercícios de codificação"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  },
+                  {
+                    "item": "Acesso mobile e desktop"
+                  }
+                ],
+                "individualCourse": {
+                  "difficulty": "Iniciante",
+                  "category": "Desenvolvimento",
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/005f0ce0-6120-4c24-a4a5-e85a7329d341",
+                  "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+                  "title": "Aprendendo a configurar o setup com deco.cx",
+                  "instructor": "Por: Rafael Oliveira",
+                  "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/2aee4548-5d97-41b8-8955-07150c5b6976"
+                },
+                "tabsCourse": [
+                  {
+                    "title": "Sobre",
+                    "content": "<h2>Sobre este curso</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  },
+                  {
+                    "title": "Detalhes",
+                    "content": "<h2>Detalhes</h2><p>Nullam egestas molestie nisi, sed volutpat dolor maximus non.</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac.</p>"
+                  },
+                  {
+                    "title": "Avaliações",
+                    "content": "<h2>Avaliações</h2><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p><p>Nam laoreet ipsum ornare sem aliquet, nec tristique quam sodales. Phasellus sollicitudin vitae mauris eget consectetur. Aenean dapibus sodales lacus, a efficitur nibh aliquet ac. Nullam egestas molestie nisi, sed volutpat dolor maximus non.&nbsp;</p>"
+                  }
+                ],
+                "url": "/curso/java-script-em-deco.cx",
+                "title": "JavaScript em deco.cx",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/789c421f-b0ed-4663-962f-a4937253269f",
+                "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5c5c21b0-e910-452e-982d-c89be472b8ea",
+                "instructor": "Por: João Rocha"
               }
             ]
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
           }
         }
       ]
