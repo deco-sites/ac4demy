@@ -260,5 +260,17 @@
     "path": "/curso/:slug",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Estat%25C3%25ADsticas-193448.json": {
+    "name": "Estatísticas",
+    "path": "/estatísticas",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-configura%25C3%25A7%25C3%25B5es-370816.json": {
+    "name": "configurações",
+    "path": "/configuracoes",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -25,7 +25,7 @@ function CarouselSpot({ title, cards = [], activeCategory = "Ver tudo", categori
 
   console.log(activeCategory)
   return (
-    <div id={id} class="relative p-10 overflow-hidden">
+    <div id={id} class="relative p-10 overflow-hidden sample-transition">
       <h2 class="text-xl font-semibold opacity-60 text-white border-b pb-3 w-full mb-6 border-opacity-10 border-white">
         {title}
       </h2>

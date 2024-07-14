@@ -1,0 +1,26 @@
+{
+  "name": "configurações",
+  "path": "/configuracoes",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Content/Intro.tsx",
+            "text": "em progresso...",
+            "subheading": "página em andamento, estamos construindo ela para você.",
+            "alignment": "Left"
+          }
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

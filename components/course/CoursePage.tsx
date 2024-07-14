@@ -224,7 +224,7 @@ export default function CoursePage({ course }: Props) {
   const processedDescription = addClassesToTitles(description);
 
   return (
-    <div class="p-6 flex flex-col md:flex-row gap-10">
+    <div class="p-6 flex flex-col md:flex-row gap-10 sample-transition">
       {/* SEÇÃO PRINCIPAL */}
       <div class="w-3/4 mx-auto flex flex-col gap-4">
         <div class="flex flex-col items-start mb-4">

@@ -1,0 +1,26 @@
+{
+  "name": "Estatísticas",
+  "path": "/estatísticas",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Content/Intro.tsx",
+            "alignment": "Left",
+            "text": "em progresso...",
+            "subheading": "página em andamento, estamos construindo ela para você."
+          }
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
