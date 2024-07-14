@@ -44,46 +44,72 @@
         "title": "Todo mundo está de olho",
         "cards": [
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/912ec02a-62d1-4bbf-94ed-d06ae929cd13",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/cadf6f77-2978-465b-bca1-a53ecd077969",
             "difficulty": "Iniciante",
-            "url": "/cursos/montando-blog",
-            "title": "Montado um blog"
+            "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+            "title": "Aprendendo a configurar o setup com deco.cx",
+            "category": "Desenvolvimento",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0d815434-5db7-4704-9f1c-6d72ae290ccd",
+            "instructor": "Por: Rafael Oliveira"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0676008e-e61d-4032-a890-00c2c3d243eb",
-            "difficulty": "Intermediário"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8f4f2611-288a-44e6-b834-a8e86ef11525",
+            "difficulty": "Avançado",
+            "category": "UI/UX Design",
+            "url": "/cursos/montando-um-blog--completo-em-webflow",
+            "title": "Montando um blog CMS completo em Webflow",
+            "instructor": "Por: Nícolas de Queiróz",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/457a5468-ac41-428b-971b-e6544daf15e2"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/dabd6cf8-9273-4f67-8721-76ca0b634ea0",
-            "difficulty": "Avançado"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/bb1e372a-d7cf-42a7-8974-8d960050b0ea",
+            "difficulty": "Intermediário",
+            "category": "Desenvolvimento",
+            "url": "/curso/e-commerce-completo-em-deco-cx-nuvemshop",
+            "title": "E-commerce em Deco.cx + Nuvemshop",
+            "instructor": "Por: Maiza Dantas",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/4dce3398-0844-4c9b-94c4-a49bae699d6c"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/7f8f01c7-9a8c-4e9d-879d-02ce8d1c60b7",
-            "difficulty": "Intermediário"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/d43097d3-bf71-4c0e-b4e2-8bfd4b4f92a9",
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "url": "/curso/java-script-em-deco.cx",
+            "title": "JavaScript em deco.cx"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/912ec02a-62d1-4bbf-94ed-d06ae929cd13",
-            "difficulty": "Iniciante"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5be22d78-0fb7-40e6-9895-adc4fcfc7088",
+            "difficulty": "Iniciante",
+            "category": "Operações",
+            "url": "/curso/revolucionando-a-forma-da-sua-marca-conectar-lojas",
+            "title": "Revolucionando a forma da sua marca conectar lojas"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0676008e-e61d-4032-a890-00c2c3d243eb",
-            "difficulty": "Intermediário"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/abb38aa2-3301-4b22-b5bc-0f6b3ff4c689",
+            "difficulty": "Intermediário",
+            "category": "Operações",
+            "url": "/curso/aprenda-montar-seu-e-commerce-em-magento.",
+            "title": "Aprenda montar seu E-commerce em Magento.",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c8b385be-8681-494f-bb08-2e5568279ee2",
+            "instructor": "Por: Maiza Dantas"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/7f8f01c7-9a8c-4e9d-879d-02ce8d1c60b7",
-            "difficulty": "Intermediário"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5fb6a3d3-a787-41be-879b-4450635f76b6",
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "url": "/curso/web-development-with-HTMX",
+            "title": "Web Development with HTMX: A Paradigm Shift",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/38834e83-e616-4869-b83f-ef049a956613",
+            "instructor": "Por: Rafael Oliveira"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/912ec02a-62d1-4bbf-94ed-d06ae929cd13",
-            "difficulty": "Iniciante"
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0676008e-e61d-4032-a890-00c2c3d243eb",
-            "difficulty": "Intermediário"
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/dabd6cf8-9273-4f67-8721-76ca0b634ea0",
-            "difficulty": "Avançado"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/992eae37-965b-4763-a21e-d5c2d1aef2d2",
+            "difficulty": "Avançado",
+            "category": "UI/UX Design",
+            "url": "/curso/seja-pro-em-ui-ux-design-no-figma",
+            "title": "Seja PRO em UI/UX design no Figma",
+            "instructor": "Por: Nícolas de Queiróz",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/dd833e95-a0af-4dc4-b0a7-e93f10a24c83"
           }
         ]
       }
@@ -114,6 +140,9 @@
           },
           {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/95d714b5-ce6a-46b2-beb9-4bf4f2925dfd"
+          },
+          {
+            "url": ";"
           }
         ]
       }
@@ -123,57 +152,81 @@
         "__resolveType": "site/sections/Hackathon/CarouselSpotMenu.tsx",
         "cards": [
           {
-            "difficulty": "Intermediário",
+            "difficulty": "Iniciante",
             "category": "Desenvolvimento",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/39565a9f-2d4c-4938-b5a5-5670b60dc7a5",
-            "url": "/cursos/a-linguagem-do-futuro",
-            "title": "A linguagem do futuro - ReactJS",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/cadf6f77-2978-465b-bca1-a53ecd077969",
+            "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+            "title": "Aprendendo a configurar o setup com deco.cx",
             "instructor": "Por: Rafael Oliveira",
-            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1ad23b2d-e46e-4a22-97ff-421ad3f82c80",
-            "priceBackgroundColor": "#02caf6",
-            "duration": "dasd"
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0d815434-5db7-4704-9f1c-6d72ae290ccd"
           },
           {
-            "difficulty": "Intermediário",
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "url": "/curso/java-script-em-deco.cx",
+            "title": "JavaScript em deco.cx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/d43097d3-bf71-4c0e-b4e2-8bfd4b4f92a9"
+          },
+          {
+            "difficulty": "Iniciante",
             "category": "Operações",
-            "url": "/cursos/revolucionamos-a-forma-da-sua-marca-conectar-lojas",
-            "title": "Revolucionamos a forma da sua marca conectar lojas",
+            "url": "/curso/revolucionando-a-forma-da-sua-marca-conectar-lojas",
+            "title": "Revolucionando a forma da sua marca conectar lojas",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5be22d78-0fb7-40e6-9895-adc4fcfc7088"
           },
           {
-            "difficulty": "Avançado",
-            "category": "UI/UX Design",
-            "url": "/cursos/montando-um-blog-CMS-completo-em-webflow",
-            "title": "Montando um blog CMS completo em Webflow",
-            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/457a5468-ac41-428b-971b-e6544daf15e2",
-            "instructor": "Por: Nícolas de Queiróz",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8f4f2611-288a-44e6-b834-a8e86ef11525"
-          },
-          {
             "difficulty": "Intermediário",
             "category": "Operações",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/830992c3-9100-47dc-b9c1-98f1735f9ab8",
-            "url": "/cursos/5-motivos-para-ter-seu-e-commerce-em-magento",
-            "title": "5 motivos para ter seu E-commerce em Magento. ",
-            "instructor": "Por: Maiza Dantas",
-            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c8b385be-8681-494f-bb08-2e5568279ee2"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/abb38aa2-3301-4b22-b5bc-0f6b3ff4c689",
+            "url": "/curso/aprenda-montar-seu-e-commerce-em-magento.",
+            "title": "Aprenda montar seu E-commerce em Magento.",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c8b385be-8681-494f-bb08-2e5568279ee2",
+            "instructor": "Por: Maiza Dantas"
+          },
+          {
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5fb6a3d3-a787-41be-879b-4450635f76b6",
+            "url": "/curso/web-development-with-HTMX",
+            "title": "Web Development with HTMX: A Paradigm Shift",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/38834e83-e616-4869-b83f-ef049a956613",
+            "instructor": "Por: Rafael Oliveira"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Marketing",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1e256815-a783-4384-88d8-d1ba58ff4b22",
+            "url": "/curso/aprenda-sobre-o-melhor-gestor-de-e-mail-marketing",
+            "title": "Aprenda sobre o melhor gestor de e-mail marketing",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/7c50f266-031f-45dd-a51c-58201dcad7c5",
+            "instructor": "Por: Nícolas de Queiróz"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Social Media",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/91fae6f3-8efb-4cd2-a39b-66114cddbc08",
+            "url": "/curso/faca-infograficos-corporativos-e-profissionais-em-minutos",
+            "title": "Infográficos corporativos e profissionais em minutos",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c8d5ddf3-8df0-4f0f-b740-a028c98143c8",
+            "instructor": "Por: Rafael Oliveira"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Desenvolvimento",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/cadf6f77-2978-465b-bca1-a53ecd077969",
+            "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+            "title": "Aprendendo a configurar o setup com deco.cx",
+            "instructor": "Por: Rafael Oliveira",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0d815434-5db7-4704-9f1c-6d72ae290ccd"
           },
           {
             "difficulty": "Avançado",
             "category": "UI/UX Design",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5fb6a3d3-a787-41be-879b-4450635f76b6",
-            "url": "/cursos/revolutionizing-web-development-with-HTMX",
-            "title": "Web Development with HTMX: A Paradigm Shift",
-            "instructor": "Por: Rafael Oliveira",
-            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/38834e83-e616-4869-b83f-ef049a956613"
-          },
-          {
-            "difficulty": "Iniciante",
-            "category": "Operações"
-          },
-          {
-            "difficulty": "Iniciante",
-            "category": "Marketing"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8f4f2611-288a-44e6-b834-a8e86ef11525",
+            "url": "/cursos/montando-um-blog--completo-em-webflow",
+            "title": "Montando um blog CMS completo em Webflow",
+            "instructor": "Por: Nícolas de Queiróz",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/457a5468-ac41-428b-971b-e6544daf15e2"
           }
         ],
         "categoriesMenu": [
@@ -214,10 +267,40 @@
         },
         "subtitle": "Aqui você encontra tudo que precisa para dominar a maior plataforma headless",
         "cards": [
-          {},
-          {},
-          {},
-          {}
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/cadf6f77-2978-465b-bca1-a53ecd077969",
+            "difficulty": "Iniciante",
+            "category": "Desenvolvimento",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0d815434-5db7-4704-9f1c-6d72ae290ccd",
+            "title": "Aprendendo a configurar o setup com deco.cx",
+            "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+            "instructor": "Por: Rafael Oliveira"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/bb1e372a-d7cf-42a7-8974-8d960050b0ea",
+            "difficulty": "Intermediário",
+            "category": "Desenvolvimento",
+            "url": "/curso/e-commerce-completo-em-deco-cx-nuvemshop",
+            "title": "E-commerce em Deco.cx + Nuvemshop",
+            "instructor": "Por: Maiza Dantas",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/4dce3398-0844-4c9b-94c4-a49bae699d6c"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/d43097d3-bf71-4c0e-b4e2-8bfd4b4f92a9",
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "url": "/curso/java-script-em-deco.cx",
+            "title": "JavaScript em deco.cx"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5fb6a3d3-a787-41be-879b-4450635f76b6",
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "url": "/curso/web-development-with-HTMX",
+            "title": "Web Development with HTMX: A Paradigm Shift",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/38834e83-e616-4869-b83f-ef049a956613",
+            "instructor": "Por: Rafael Oliveira"
+          }
         ]
       }
     },

@@ -29,6 +29,9 @@ export interface Props {
 export default function HeaderLateral(
   { logo, menu, inviteFriend, url }: SectionProps<typeof loader>,
 ) {
+
+  const newUrl = new URL(url);
+
   return (
     <div
       class={`scrollbar-header fixed w-[272px] overflow-y-scroll z-50 flex flex-col h-screen ml-0 p-8 pt-10 bg-menu border-r border-white border-opacity-10`}
@@ -52,11 +55,16 @@ export default function HeaderLateral(
                 return (
                   <div
                     class={`flex items-center gap-2.5 w-full p-4 ${
-                      url.includes(href) &&
+                      newUrl.pathname === href &&
                       "bg-primary rounded-lg text-base-200"
                     }`}
                   >
-                    <Icon id={icon} size={18} stroke-width={1} />
+                    <Icon id={icon} size={18} stroke-width={1} class={`${
+                      newUrl.pathname === href ?
+                      "text-black opacity-100"
+                      :
+                      "text-white opacity-60"
+                    }`}/>
                     <a
                       href={href}
                       class={`text-sm font-semibold text-opacity-60`}

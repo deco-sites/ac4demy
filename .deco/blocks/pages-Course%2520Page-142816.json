@@ -10,14 +10,16 @@
       "sections": [
         {
           "section": {
-            "__resolveType": "Header"
-          }
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Hackathon/CoursePageContainer.tsx",
+            "__resolveType": "site/sections/CoursePage.tsx",
             "course": {
-              "title": "Aprendendo a configurar o setup com deco.cx"
+              "sections": [],
+              "details": [],
+              "courseIncludes": [],
+              "individualCourse": {
+                "difficulty": "Iniciante",
+                "category": "Desenvolvimento"
+              },
+              "tabsCourse": []
             }
           }
         }

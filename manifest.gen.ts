@@ -6,9 +6,8 @@ import * as $$$$$$$$$0 from "./actions/minicart/submit.ts";
 import * as $$$$$$$$$1 from "./actions/wishlist/submit.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/analytics.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
-import * as $$$$$$$$$$$2 from "./apps/deco/records.ts";
-import * as $$$$$$$$$$$3 from "./apps/deco/shopify.ts";
-import * as $$$$$$$$$$$4 from "./apps/site.ts";
+import * as $$$$$$$$$$$2 from "./apps/deco/shopify.ts";
+import * as $$$$$$$$$$$3 from "./apps/site.ts";
 import * as $$$0 from "./loaders/availableIcons.ts";
 import * as $$$1 from "./loaders/icons.ts";
 import * as $$$2 from "./loaders/minicart.ts";
@@ -28,12 +27,12 @@ import * as $$$$$$10 from "./sections/CourseContent/CourseSpot.tsx";
 import * as $$$$$$11 from "./sections/CourseContent/DecoSection.tsx";
 import * as $$$$$$12 from "./sections/CoursePage.tsx";
 import * as $$$$$$13 from "./sections/CoursePageSlug.tsx";
-import * as $$$$$$14 from "./sections/CurseRecords.tsx";
-import * as $$$$$$15 from "./sections/Footer/Footer.tsx";
-import * as $$$$$$16 from "./sections/Footer/FooterAc4demy.tsx";
-import * as $$$$$$17 from "./sections/Hackathon/CarouselSpotMenu.tsx";
-import * as $$$$$$18 from "./sections/Hackathon/CarrouselMainBanners.tsx";
-import * as $$$$$$19 from "./sections/Hackathon/CoursePageContainer.tsx";
+import * as $$$$$$14 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$15 from "./sections/Footer/FooterAc4demy.tsx";
+import * as $$$$$$16 from "./sections/Hackathon/CarouselSpotMenu.tsx";
+import * as $$$$$$17 from "./sections/Hackathon/CarrouselMainBanners.tsx";
+import * as $$$$$$18 from "./sections/Hackathon/CoursePageContainer.tsx";
+import * as $$$$$$19 from "./sections/Hackathon/GalerySpot.tsx";
 import * as $$$$$$20 from "./sections/Header/Header.tsx";
 import * as $$$$$$21 from "./sections/Header/HeaderLateral.tsx";
 import * as $$$$$$22 from "./sections/Header/HeaderTop.tsx";
@@ -82,12 +81,12 @@ const manifest = {
     "site/sections/CourseContent/DecoSection.tsx": $$$$$$11,
     "site/sections/CoursePage.tsx": $$$$$$12,
     "site/sections/CoursePageSlug.tsx": $$$$$$13,
-    "site/sections/CurseRecords.tsx": $$$$$$14,
-    "site/sections/Footer/Footer.tsx": $$$$$$15,
-    "site/sections/Footer/FooterAc4demy.tsx": $$$$$$16,
-    "site/sections/Hackathon/CarouselSpotMenu.tsx": $$$$$$17,
-    "site/sections/Hackathon/CarrouselMainBanners.tsx": $$$$$$18,
-    "site/sections/Hackathon/CoursePageContainer.tsx": $$$$$$19,
+    "site/sections/Footer/Footer.tsx": $$$$$$14,
+    "site/sections/Footer/FooterAc4demy.tsx": $$$$$$15,
+    "site/sections/Hackathon/CarouselSpotMenu.tsx": $$$$$$16,
+    "site/sections/Hackathon/CarrouselMainBanners.tsx": $$$$$$17,
+    "site/sections/Hackathon/CoursePageContainer.tsx": $$$$$$18,
+    "site/sections/Hackathon/GalerySpot.tsx": $$$$$$19,
     "site/sections/Header/Header.tsx": $$$$$$20,
     "site/sections/Header/HeaderLateral.tsx": $$$$$$21,
     "site/sections/Header/HeaderTop.tsx": $$$$$$22,
@@ -120,9 +119,8 @@ const manifest = {
   "apps": {
     "site/apps/deco/analytics.ts": $$$$$$$$$$$0,
     "site/apps/deco/htmx.ts": $$$$$$$$$$$1,
-    "site/apps/deco/records.ts": $$$$$$$$$$$2,
-    "site/apps/deco/shopify.ts": $$$$$$$$$$$3,
-    "site/apps/site.ts": $$$$$$$$$$$4,
+    "site/apps/deco/shopify.ts": $$$$$$$$$$$2,
+    "site/apps/site.ts": $$$$$$$$$$$3,
   },
   "name": "site",
   "baseUrl": import.meta.url,

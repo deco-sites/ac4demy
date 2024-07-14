@@ -1,0 +1,16 @@
+{
+  "name": "Cursos",
+  "path": "/cursos",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "Gallery courses"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

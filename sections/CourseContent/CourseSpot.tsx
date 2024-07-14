@@ -3,7 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 import { ComponentChildren, Fragment } from "preact";
 import { useId } from "../../sdk/useId.ts";
 
-/** @title Spot Course */
+/** @titleBy title */
 export interface Course {
   url?: string;
   title?: string;
@@ -19,7 +19,7 @@ export interface Course {
   priceBackgroundColor?: string;
   category?: "Desenvolvimento" | "Social Media" | "UI/UX Design" | "Marketing" | "Operações"
 }
-
+/** @titleBy title */
 export interface Props {
   course?: Course;
 }
@@ -70,10 +70,10 @@ export default function CourseSpot({ course }: Props) {
   const ContainerComponent = course ? Container : Fragment;
 
   return (
-    <div class="gap-8 grid grid-cols-[repeat(auto-fill,_minmax(200px,_260px))] ">
+    <div class="gap-8 grid grid-cols-[repeat(auto-fill,_minmax(200px,_240px))] ">
       <a
         href={`${url}`}
-        class="border-0 overflow-hidden rounded-2xl p-2 flex-shrink-0 w-full bg-[#FFFFFF14] min-h-[340px] "
+        class="border-0 overflow-hidden rounded-2xl p-3 flex-shrink-0 w-full bg-[#FFFFFF14] min-h-[340px] "
       >
         <Image
           width={380}
@@ -89,7 +89,7 @@ export default function CourseSpot({ course }: Props) {
           <div class={`font-bold mt-3 text-sm ${difficultyColor}`}>
             {difficulty}
           </div>
-          <h3 class="text-lg font-bold text-white min-h-[60px]">{title}</h3>
+          <h3 class="text-lg font-bold text-white min-h-[84px]">{title}</h3>
           <div class="flex items-center">
             <Image
               width={32}
@@ -103,9 +103,9 @@ export default function CourseSpot({ course }: Props) {
             />
             <p class="text-sm text-[#A4A4A4]">{instructor}</p>
           </div>
-          <div class="flex items-center justify-between mt-4">
+          <div class="flex items-center justify-between !mt-4">
             <div
-              class="text-black font-bold py-2 px-4 rounded-full text-sm flex items-center gap-2 lg:hover:bg-blue-600"
+              class="text-black font-bold py-2 px-4 rounded-xl text-sm flex items-center gap-2 lg:hover:bg-blue-600"
               style={{ backgroundColor: priceBackgroundColor }}
             >
               <svg
