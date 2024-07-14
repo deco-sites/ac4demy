@@ -28,15 +28,15 @@ function PostSpot({ post }: { post: Post }) {
   return (
     <div class="post-spot">
       <Image
-          width={380}
-          height={200}
-          class="w-52 h-80 rounded-lg"
-          sizes="(max-width: 640px) 100vw, 30vw"
-          src={post.image}
-          alt={post.caption}
-          decoding="async"
-          loading="lazy"
-        />
+        width={380}
+        height={200}
+        class="w-52 h-80 rounded-lg"
+        sizes="(max-width: 640px) 100vw, 30vw"
+        src={post.image}
+        alt={post.caption}
+        decoding="async"
+        loading="lazy"
+      />
     </div>
   );
 }

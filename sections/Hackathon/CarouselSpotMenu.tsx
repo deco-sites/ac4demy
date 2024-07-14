@@ -7,7 +7,13 @@ import { useSection } from "deco/hooks/useSection.ts";
 
 interface Category {
   label: string;
-  category: "Ver tudo" | "Desenvolvimento" | "Social Media" | "UI/UX Design" | "Marketing" | "Operações";
+  category:
+    | "Ver tudo"
+    | "Desenvolvimento"
+    | "Social Media"
+    | "UI/UX Design"
+    | "Marketing"
+    | "Operações";
 }
 
 export interface Props {
@@ -18,12 +24,16 @@ export interface Props {
   activeCategory?: string;
 }
 
-function CarouselSpot({ title, cards = [], activeCategory = "Ver tudo", categoriesMenu }: Props) {
+function CarouselSpot(
+  { title, cards = [], activeCategory = "Ver tudo", categoriesMenu }: Props,
+) {
   const id = useId();
 
-  const filteredCards = activeCategory === "Ver tudo" ? cards : cards.filter(card => card.category === activeCategory);
+  const filteredCards = activeCategory === "Ver tudo"
+    ? cards
+    : cards.filter((card) => card.category === activeCategory);
 
-  console.log(activeCategory)
+  console.log(activeCategory);
   return (
     <div id={id} class="relative p-10 overflow-hidden">
       <h2 class="text-xl font-semibold opacity-60 text-white border-b pb-3 w-full mb-6 border-opacity-10 border-white">
@@ -33,8 +43,12 @@ function CarouselSpot({ title, cards = [], activeCategory = "Ver tudo", categori
         {categoriesMenu?.map(({ label, category }) => (
           <li>
             <button
-              class={`text-base text-white duration-300 ${activeCategory === category ? "border-b border-primary font-semibold text-opacity-100" : "font-normal text-opacity-60"}`}
-              hx-get={useSection({props: {activeCategory: category}})}
+              class={`text-base text-white duration-300 ${
+                activeCategory === category
+                  ? "border-b border-primary font-semibold text-opacity-100"
+                  : "font-normal text-opacity-60"
+              }`}
+              hx-get={useSection({ props: { activeCategory: category } })}
               hx-swap="outerHTML"
               hx-target="closest section"
             >
@@ -45,11 +59,11 @@ function CarouselSpot({ title, cards = [], activeCategory = "Ver tudo", categori
         <li></li>
       </ul>
       <Slider class="carousel carousel-center w-screen gap-6 text-secondary-content text-sm/4">
-          {filteredCards.map((card, index) => (
-            <Slider.Item key={index} index={index} className="carousel-item">
-              <CourseSpot course={card} />
-            </Slider.Item>
-          ))}
+        {filteredCards.map((card, index) => (
+          <Slider.Item key={index} index={index} className="carousel-item">
+            <CourseSpot course={card} />
+          </Slider.Item>
+        ))}
       </Slider>
 
       <Slider.PrevButton

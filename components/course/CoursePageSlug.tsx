@@ -113,7 +113,7 @@ export const loader = (props: Props, req: Request) => {
   const { courses } = { ...DEFAULT_PROPS, ...props };
 
   const courseItem = courses.find(({ url }) =>
-    url && new URL(req.url).pathname.includes(url)
+    new URLPattern({ pathname: url }).test(req.url)
   );
 
   return { courseItem };
