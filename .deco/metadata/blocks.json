@@ -233,25 +233,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-<<<<<<< Updated upstream
-  "/.deco/blocks/pages-Curso-530211.json": {
-    "name": "Curso",
-    "path": "/cursos/:slug",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/CURSOSLUGTESTE.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/CoursePageSlug.tsx"
-  },
-  "/.deco/blocks/pages-TEste-246067.json": {
-    "name": "TEste",
-    "path": "/teste",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/deco-records.json": null
-=======
   "/.deco/blocks/pages-Course%2520Page-142816.json": {
     "name": "Course Page",
     "path": "/course/:slug",
@@ -263,6 +244,21 @@
     "path": "/course/teste",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Cursos-804409.json": {
+    "name": "Cursos",
+    "path": "/cursos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Gallery%20courses.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/ContainerContent.tsx"
+  },
+  "/.deco/blocks/pages-Course%2520Page%2520Copy-747027.json": {
+    "name": "Course Page Copy",
+    "path": "/curso/:slug",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
->>>>>>> Stashed changes
 }

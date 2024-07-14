@@ -1,0 +1,96 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "HeaderLateral - Geral"
+    },
+    {
+      "__resolveType": "site/sections/ContainerContent.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/CoursePage.tsx",
+            "course": {
+              "sections": [
+                {
+                  "title": "Introdução",
+                  "duration": "05:45"
+                },
+                {
+                  "title": "Primeiros passos",
+                  "duration": "05:45"
+                },
+                {
+                  "title": "Execução 1",
+                  "duration": "05:45"
+                },
+                {
+                  "title": "Execução 2",
+                  "duration": "05:45"
+                },
+                {
+                  "title": "Execução 3",
+                  "duration": "05:45"
+                },
+                {
+                  "title": "Finalização",
+                  "duration": "05:45"
+                }
+              ],
+              "details": [
+                {
+                  "title": "Sobre",
+                  "text": "Sobre este curso",
+                  "difficulty": "Iniciante"
+                },
+                {
+                  "title": "teste",
+                  "text": "teste",
+                  "difficulty": "tetes"
+                }
+              ],
+              "courseIncludes": [
+                {
+                  "item": "Sobre"
+                }
+              ],
+              "individualCourse": {
+                "difficulty": "Iniciante",
+                "category": "Desenvolvimento"
+              },
+              "tabsCourse": [],
+              "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+              "title": "Aprendendo a configurar o setup com deco.cx",
+              "instructor": "Por: Rafael Oliveira",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/780853f3-3611-4e72-9f34-f0f01ad5f65c",
+              "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/3cdb9bff-0442-4e95-a458-632b4a94f8c2"
+            }
+          }
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/CoursePage.tsx",
+            "course": {
+              "sections": [],
+              "details": [],
+              "courseIncludes": [],
+              "individualCourse": {
+                "difficulty": "Iniciante",
+                "category": "Desenvolvimento"
+              },
+              "tabsCourse": [],
+              "url": "/curso/e-commerce-completo-em-deco-cx-nuvemshop",
+              "title": "Montando um blog CMS completo em Webflow",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/de9534d9-b459-4f16-9680-621270dab864"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "name": "Course Page Copy",
+  "path": "/curso/:slug",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}

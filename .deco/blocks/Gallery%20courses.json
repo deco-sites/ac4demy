@@ -1,0 +1,226 @@
+{
+  "__resolveType": "site/sections/ContainerContent.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Header/HeaderTop.tsx",
+        "placeholderBusca": "Encontre seu curso"
+      }
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Hackathon/GalerySpot.tsx",
+        "cards": [
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/cadf6f77-2978-465b-bca1-a53ecd077969",
+            "difficulty": "Iniciante",
+            "category": "Desenvolvimento",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0d815434-5db7-4704-9f1c-6d72ae290ccd",
+            "title": "Aprendendo a configurar o setup com deco.cx",
+            "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+            "instructor": "Por: Rafael Oliveira"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8f4f2611-288a-44e6-b834-a8e86ef11525",
+            "difficulty": "Avançado",
+            "category": "UI/UX Design",
+            "url": "/cursos/montando-um-blog--completo-em-webflow",
+            "title": "Montando um blog CMS completo em Webflow",
+            "instructor": "Por: Nícolas de Queiróz",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/457a5468-ac41-428b-971b-e6544daf15e2"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/bb1e372a-d7cf-42a7-8974-8d960050b0ea",
+            "difficulty": "Intermediário",
+            "category": "Desenvolvimento",
+            "url": "/curso/e-commerce-completo-em-deco-cx-nuvemshop",
+            "title": "E-commerce em Deco.cx + Nuvemshop",
+            "instructor": "Por: Maiza Dantas",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/4dce3398-0844-4c9b-94c4-a49bae699d6c"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/d43097d3-bf71-4c0e-b4e2-8bfd4b4f92a9",
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "url": "/curso/java-script-em-deco.cx",
+            "title": "JavaScript em deco.cx"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5be22d78-0fb7-40e6-9895-adc4fcfc7088",
+            "difficulty": "Iniciante",
+            "category": "Operações",
+            "url": "/curso/revolucionando-a-forma-da-sua-marca-conectar-lojas",
+            "title": "Revolucionando a forma da sua marca conectar lojas"
+          },
+          {
+            "difficulty": "Intermediário",
+            "category": "Operações",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/abb38aa2-3301-4b22-b5bc-0f6b3ff4c689",
+            "url": "/curso/aprenda-montar-seu-e-commerce-em-magento.",
+            "title": "Aprenda montar seu E-commerce em Magento.",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c8b385be-8681-494f-bb08-2e5568279ee2",
+            "instructor": "Por: Maiza Dantas"
+          },
+          {
+            "difficulty": "Avançado",
+            "category": "Desenvolvimento",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/5fb6a3d3-a787-41be-879b-4450635f76b6",
+            "url": "/curso/web-development-with-HTMX",
+            "title": "Web Development with HTMX: A Paradigm Shift",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/38834e83-e616-4869-b83f-ef049a956613",
+            "instructor": "Por: Rafael Oliveira"
+          },
+          {
+            "difficulty": "Avançado",
+            "category": "UI/UX Design",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/992eae37-965b-4763-a21e-d5c2d1aef2d2",
+            "url": "/curso/seja-pro-em-ui-ux-design-no-figma",
+            "title": "Seja PRO em UI/UX design no Figma",
+            "instructor": "Por: Nícolas de Queiróz",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/dd833e95-a0af-4dc4-b0a7-e93f10a24c83"
+          },
+          {
+            "difficulty": "Intermediário",
+            "category": "Operações",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c37920a7-5dab-4cb9-82d7-8bad9f0a5251",
+            "url": "/curso/descubra-a-melhor-plataforma-marketplace-in-do-mercado",
+            "title": "Descubra a melhor plataforma marketplace-in do mercado."
+          },
+          {
+            "difficulty": "Intermediário",
+            "category": "Desenvolvimento",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/39565a9f-2d4c-4938-b5a5-5670b60dc7a5",
+            "url": "/curso/react-do-basico-ao-avancado",
+            "title": "React | Do básico ao avançado",
+            "instructor": "Por: Rafael Oliveira",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1ad23b2d-e46e-4a22-97ff-421ad3f82c80"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Marketing",
+            "url": "/curso/automatizando-campanhas-de-e-mail-com-o-mailchimp",
+            "title": "Automatizando campanhas de e-mail com o Mailchimp",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8642a039-cfac-4945-8806-6f7bebf942ab",
+            "instructor": "Por: Maiza Dantas",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1adf57a3-5ec2-45f2-8cfe-48806a2179e1"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Marketing",
+            "url": "/curso/aprenda-sobre-o-melhor-gestor-de-e-mail-marketing",
+            "title": "Aprenda sobre o melhor gestor de e-mail marketing",
+            "instructor": "Por: Nícolas de Queiróz",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/1e256815-a783-4384-88d8-d1ba58ff4b22",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/7c50f266-031f-45dd-a51c-58201dcad7c5"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Social Media",
+            "url": "/curso/faca-infograficos-corporativos-e-profissionais-em-minutos",
+            "title": "Infográficos corporativos e profissionais em minutos",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/91fae6f3-8efb-4cd2-a39b-66114cddbc08",
+            "instructor": "Por: Rafael Oliveira",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/c8d5ddf3-8df0-4f0f-b740-a028c98143c8"
+          },
+          {
+            "difficulty": "Iniciante",
+            "category": "Desenvolvimento",
+            "url": "/curso/aprendendo-a-configurar-o-setup-com-deco-cx",
+            "title": "Aprendendo a configurar o setup com deco.cx",
+            "instructor": "Por: Rafael Oliveira",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/cadf6f77-2978-465b-bca1-a53ecd077969",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/0d815434-5db7-4704-9f1c-6d72ae290ccd"
+          },
+          {
+            "difficulty": "Avançado",
+            "category": "UI/UX Design",
+            "url": "/cursos/montando-um-blog--completo-em-webflow",
+            "title": "Montando um blog CMS completo em Webflow",
+            "instructor": "Por: Nícolas de Queiróz",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/8f4f2611-288a-44e6-b834-a8e86ef11525",
+            "imageInstructor": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/457a5468-ac41-428b-971b-e6544daf15e2"
+          }
+        ],
+        "categoriesMenu": [
+          {
+            "category": "Ver tudo",
+            "label": "Todos nossos cursos"
+          },
+          {
+            "category": "Desenvolvimento",
+            "label": "Desenvolvimento"
+          },
+          {
+            "category": "Social Media",
+            "label": "Social Media"
+          },
+          {
+            "category": "UI/UX Design",
+            "label": "UI/UX Design"
+          },
+          {
+            "category": "Marketing",
+            "label": "Marketing"
+          },
+          {
+            "category": "Operações",
+            "label": "Operações"
+          }
+        ],
+        "title": "Navegue pelos nossos cursos"
+      }
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Footer/FooterAc4demy.tsx",
+        "menuLinks": [
+          {
+            "title": "Sobre a plataforma",
+            "href": "/"
+          },
+          {
+            "title": "Ensine na AC4DEMY",
+            "href": "/"
+          },
+          {
+            "title": "Fale conosco",
+            "href": "/"
+          },
+          {
+            "title": "Ajuda e suporte",
+            "href": "/"
+          },
+          {
+            "title": "Políticas de privacidade",
+            "href": "/"
+          },
+          {
+            "title": "Termos de uso",
+            "href": "/"
+          }
+        ],
+        "socialLinks": [
+          {
+            "icon": "instagram",
+            "label": "Instagram",
+            "href": "https://www.instagram.com/tec4udigital/"
+          },
+          {
+            "icon": "facebook",
+            "label": "Facebook",
+            "href": "/"
+          },
+          {
+            "icon": "tiktok",
+            "label": "TikTok",
+            "href": "/"
+          }
+        ],
+        "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/31454ae0-a511-4faf-b9ee-a5e1ec9de97b",
+        "textEnterprise": "Um empresa",
+        "logoEnterprise": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/69031f1b-3205-4850-bcc2-f0173efa6afa",
+        "copyright": "© 2024, TEC4U Digital. Todos os direitos reservados."
+      }
+    }
+  ]
+}

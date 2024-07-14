@@ -46,8 +46,8 @@ interface MainCourse {
   instructor?: string;
   excerpt?: string;
   description?: HTMLWidget;
-  image?: string;
-  imageInstructor?: string;
+  image?: ImageWidget;
+  imageInstructor?: ImageWidget;
   date?: string;
   duration?: string;
   price?: string;
@@ -258,8 +258,10 @@ export default function CoursePage({ course }: Props) {
             <span class="text-white">238 alunos</span>
           </div>
           <div class="flex items-center">
-            <img
+            <Image
               src={imageInstructor}
+              width={32}
+              height={32}
               alt="Instructor"
               class="w-6 h-6 rounded-2xl mr-4"
             />
@@ -338,8 +340,10 @@ export default function CoursePage({ course }: Props) {
       {/* SEÇÃO LATERAL */}
       <div class="w-1/4 flex flex-col items-start mb-4">
         <div class="flex items-center w-full">
-          <img
+          <Image
             src={image}
+            width={371}
+            height={195}
             alt={title}
             class="w-full h-44 object-cover rounded-2xl"
           />
