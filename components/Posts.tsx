@@ -1,9 +1,11 @@
 import Slider from "./ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 import Icon from "site/components/ui/Icon.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
 
 export interface Post {
-  image: string;
+  image: ImageWidget;
   caption: string;
 }
 
@@ -25,7 +27,16 @@ const defaultPosts: Post[] = [
 function PostSpot({ post }: { post: Post }) {
   return (
     <div class="post-spot">
-      <img src={post.image} alt={post.caption} class="w-52 h-80 rounded-lg" />
+      <Image
+          width={380}
+          height={200}
+          class="w-52 h-80 rounded-lg"
+          sizes="(max-width: 640px) 100vw, 30vw"
+          src={post.image}
+          alt={post.caption}
+          decoding="async"
+          loading="lazy"
+        />
     </div>
   );
 }

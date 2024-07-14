@@ -306,6 +306,39 @@
     },
     {
       "section": {
+        "__resolveType": "site/sections/PostsImageSection.tsx",
+        "title": "AC4DEMY é o braço de conteúdo da TEC4U Digital",
+        "subtitle": "Confira as nossas pílulas de conteúdo no Instagram @tec4udigital",
+        "posts": [
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/30455b34-ad1b-427c-aecd-eb231099a82a",
+            "caption": "Title Image"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/30455b34-ad1b-427c-aecd-eb231099a82a",
+            "caption": "Title Image"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/30455b34-ad1b-427c-aecd-eb231099a82a",
+            "caption": "Title Image"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/30455b34-ad1b-427c-aecd-eb231099a82a",
+            "caption": "Title Image"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/30455b34-ad1b-427c-aecd-eb231099a82a",
+            "caption": "Title Image"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11564/30455b34-ad1b-427c-aecd-eb231099a82a",
+            "caption": "Title Image"
+          }
+        ]
+      }
+    },
+    {
+      "section": {
         "__resolveType": "site/sections/Footer/FooterAc4demy.tsx",
         "menuLinks": [
           {
